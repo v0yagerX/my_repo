@@ -1,0 +1,174 @@
+{
+ "layer": "Semiconductors (SOXX / SMH / SOX)",
+ "current_state": "SOXX closed Oct 14 at 519.42: -11.9% from its Oct 5 closing high 589.51 (intraday 596.44 Oct 2), -20.7% from its Jun 22 record 655.01, 7 straight down closes, RSI 37.3. Overnight IBKR 04:10 UTC: SOXX 509.46 (-1.92%; -13.6% from 589.51), QQQ 720.92 (-1.10%), NVDA 218.25 (-1.38%), after an Asia chip rout (KOSPI -7.7%, SK Hynix -11.4%, Samsung -9.5%, Tokyo Electron -7.3%). SMH 564.74 (-10.9% from 633.90; -15.6% from record); SOX 11,684.38 (-11.6% / -20.2%). The early-October 'breakout' was a break out of the Aug 1-Sep 16 range (closes 497.40-559.12), first on Sep 21 (559.34), then the Oct 2 gap above the late-Sep shelf (572.78-579.98) - NOT a new high (lower high vs June 655.01 and July 599.70). It has FAILED: the 572.78 shelf was lost Oct 8, the 559.12 range top Oct 12, the 528.26 midpoint Oct 14; price is below every key AVWAP (Oct 5 555.84, Jun 22 544.50, Jul 29 530.19, Mar 30 525.39) and overnight below the Sep 17 gap (510.37-514.80) and the 61.8% retracement (512.56). What remains undecided is the larger base: since Jul 29 SOXX made a higher high and a higher low (465.00 -> 497.40) and is +11.5% above a rising 200-day; 497.40 (close) decides whether the failure becomes a wider base or a full range traverse. TSMC Q3 results were NOT out at ~04:12 UTC.",
+ "key_levels": [
+  {
+   "name": "Oct 5 closing high / unfilled Oct 7 gap",
+   "level_low": 583.89,
+   "level_high": 589.51,
+   "kind": "resistance",
+   "distance_pct_from_oct14_close": 12.95,
+   "reasoning": "Gap 583.89-588.64 and the 589.51 closing high (Oct 2 intraday 596.44). Reclaiming it would reopen the June-high test."
+  },
+  {
+   "name": "Old range top + Oct-high AVWAPs + Oct 12 gap",
+   "level_low": 552.87,
+   "level_high": 566.02,
+   "kind": "resistance",
+   "distance_pct_from_oct14_close": 7.71,
+   "reasoning": "Oct 12 gap 552.87-557.26; Oct 5 AVWAP 555.84; Oct 2 AVWAP 559.71; Aug 17 range top 559.12 close / 566.02 intraday. A close above 559 voids the failed breakout [calc, DB]."
+  },
+  {
+   "name": "50-day / 38.2% / Jun 22 AVWAP",
+   "level_low": 538.43,
+   "level_high": 545.88,
+   "kind": "resistance",
+   "distance_pct_from_oct14_close": 4.38,
+   "reasoning": "50-day 538.43; Sep-start AVWAP 539.98; 38.2% Fibonacci of Jul29->Oct high 541.95 (closes) / 545.88 (intraday); Jun 22 AVWAP 544.50 [calc]."
+  },
+  {
+   "name": "First repair zone",
+   "level_low": 525.39,
+   "level_high": 531.33,
+   "kind": "resistance",
+   "distance_pct_from_oct14_close": 1.72,
+   "reasoning": "Mar 30 AVWAP 525.39; range midpoint 528.26; 50% Fibonacci 527.26/530.26; Jul 29 AVWAP 530.19; 3-month node 531.33. A close above 530.19 by Oct 21-23 is the first sign the low is in."
+  },
+  {
+   "name": "Pivot: Oct 14 low / rising lows line",
+   "level_low": 517.47,
+   "level_high": 520.7,
+   "kind": "resistance",
+   "distance_pct_from_oct14_close": -0.06,
+   "reasoning": "Oct 14 low 517.47; two-point line of closing lows (Jul 29 465.00 -> Sep 14 497.40) projects ~520 today (subjective). Lost overnight (509.46)."
+  },
+  {
+   "name": "Sep 17 gap / 61.8% retracement",
+   "level_low": 510.37,
+   "level_high": 514.8,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -1.32,
+   "reasoning": "Unfilled Sep 17 breakaway gap 510.37-514.80; 61.8% retracement 512.56 (closes) / 514.64 (intraday). Overnight trade is already below it."
+  },
+  {
+   "name": "HINGE: Sep 14 low / 3-month POC",
+   "level_low": 495.15,
+   "level_high": 500.28,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -4.18,
+   "reasoning": "Sep 14 low 497.40 close / 495.15 intraday (Aug-Sep range floor); 3-month volume POC 500.28 (11.7% of volume) [DB]. Closing basis decides shallow vs deeper; SMH 541.50 / SOX 11,131 equivalents."
+  },
+  {
+   "name": "78.6% / Aug-Sep intraday lows",
+   "level_low": 485.71,
+   "level_high": 492.41,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -5.84,
+   "reasoning": "78.6% Fibonacci 491.65/492.41; Sep 3 low 489.21; Aug 3 low 485.71. Sits in the 465-495 air pocket (~7.7% of 3-month volume) [calc]."
+  },
+  {
+   "name": "Rising 200-day path / YTD AVWAP / 50% of Mar-Jun run",
+   "level_low": 474.5,
+   "level_high": 486.0,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -7.54,
+   "reasoning": "200-day 474.5 by Oct 28, 478.5 Nov 4, 485.7 Nov 18 (flat-495 path) [calc]; YTD AVWAP 476.52; 50% retracement of Mar 30->Jun 22 rally 482.40. Core of the deeper-correction zone."
+  },
+  {
+   "name": "TREND LINE: Jul 29 low / 200-day today",
+   "level_low": 464.08,
+   "level_high": 465.65,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -10.5,
+   "reasoning": "Jul 29 low 465.00 close / 464.08 intraday; 200-day today 465.65. A close below = new cycle low below the Jun-Jul crash low = trend break (SMH 504.22; SOX 10,447)."
+  },
+  {
+   "name": "Measured move / 61.8% of Mar-Jun run",
+   "level_low": 435.7,
+   "level_high": 441.66,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -15.54,
+   "reasoning": "Range measured move 497.40 - 61.72 = 435.7; 61.8% retracement of the Mar-Jun rally 441.66. Core of the trend-break zone."
+  },
+  {
+   "name": "Unfilled Apr 17 gap",
+   "level_low": 407.48,
+   "level_high": 409.58,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -21.35,
+   "reasoning": "Apr 17 gap 407.48-409.58; trend-break tail."
+  }
+ ],
+ "internals_summary": "Breadth (29-name basket, survivorship-biased): 14% above 50-day (93% Oct 6; 17% at the Sep 14 low; 0% at Jul 29), 76% >20% below highs, median name -30.8%, 66% above 200-day [SL]. Leadership since Oct 6 (medians): optics/networking -19.9%, AI compute ex mega-caps -14.5% (ALAB -23%, ARM -21%), foundry/equipment -12.5% (ASML ADR -3.9% on a beat-and-raise), memory -12.0% (-36.5% since Jun 22), analog -11.0% (TXN/ADI above 50-day); NVDA -7.5%, AVGO -7.9%, TSM -10.8%. NVDA/SOXX +5.0% since Oct 6: de-grossing of crowded/financing-sensitive/memory/semicap names, not an AI-demand collapse - but last leaders usually catch down in a final flush. Volume 1.52x 50-day (vs 1.79x Jul 29, 2.88x Jun 5) = no capitulation; VIX 16.87, VIX/VIX3M 0.898; SOXX IV 35.6% (26th pct of 52w, IBKR); SOXX option P/C 2.59 vs 1.87 avg (puts bid) [SP]. SOXX/SPY -10.0% in 5 sessions, below 50-day, +5.8% above 200-day, no relative lower low yet; SMH/QQQ below 50-day. 3-month volume: 12.4% at 495-505 but only ~7.7% at 465-495 (air pocket) [calc]. Positioning: long semis BofA FMS most crowded trade (CONFIRMED; 45% share SINGLE-SOURCE); SOXL +$711.9M Oct 13 (one vendor). Macro: 10y 5.19-5.21%, real ~2.9% (highest since 2008); HY OAS 3.16% (91st pct), CCC 3-year high; CoreWeave 2032s below 78c overnight; Oct 28 hike odds 24-32% late Oct 14 (stale 35%/54% corrected) [FX]. Yields fell 12 bp while SOXX fell 11.9% - selling is AI-specific, no rates cushion.",
+ "upper_layer_conditioning": "MARKET (audited 46/34/20; hinge SPX 7,505): weak downside constraint on semis - in Jun-Jul 2026 SOXX fell 29% while the S&P 500's worst close was -4.5% (RSP rallied), so a market shallow outcome is compatible with any semis bucket; it constrains trend-break timing (in a market break the high-beta low comes after NVDA's results). TECH (35/40/25; hinge QQQ 697-700, trend line 661.73): binding. SOXX beta to QQQ 2.04 (1y) / 2.26 (6m), down-day 2.25/2.46, corr 0.85-0.89, residual vol ~22-24%/yr (~+/-6% over 20 sessions) [DB, calc]. Semis already overshot beta (SOXX -11.9% vs QQQ -4.0% since Oct 6 = 2.9x); in 54 past SOX signals (first close <=-11.6% vs 60-day high) the further SOX fall was ~1.1-1.2x NDX's further fall in pp of highs (~1.5x in price terms). Mapping at effective beta 1.5-2.0: tech shallow (QQQ 700-716) -> SOXX ~478-505, straddling 497.40 (P S/D/T = .60/.36/.04); tech deeper (QQQ 672-692) -> SOXX ~440-480, straddling 465 (.07/.50/.43); tech break (<661.73) -> SOXX <=~440 (.01/.06/.93). Analog bins agree: NDX further fall <=4.5pp -> 68-81% of SOX lows held -15.6%; 4.5-9pp -> 0-8/54-56/38-44. Top-down result: 24/34/42 with TV's 35/40/25; 26/34/41 with TV reweighted for the market audit (~38/37/25). Decoupling: semis can bottom before QQQ (July low came on the MSFT print) or keep falling while mega-caps cushion QQQ. NVDA beta to SOXX only 0.39-0.52 (corr 0.54-0.62) so NVDA can decouple from semis (Jun-Jul: NVDA -8.9% vs SOXX -29%), but not from QQQ (beta 1.16-1.30).",
+ "scenarios": [
+  {
+   "name": "shallow pullback",
+   "definition": "Lowest SOXX daily close Oct 15 - Dec 4 >= 497.40 (Sep 14 close / Aug-Sep range floor); equivalents SMH >= 541.50, SOX >= 11,131",
+   "probability_pct": 26,
+   "bottom_zone_low": 497.4,
+   "bottom_zone_high": 515.0,
+   "bottom_zone_drawdown_from_high_pct": "-12.6% to -15.6% from the 589.51 Oct 5 closing high; -21.4% to -24.1% from the 655.01 Jun 22 record (core 500-512)",
+   "timeframe": "Oct 15-23, 2026",
+   "path": "TSMC beat-and-raise with SOXX green Oct 15-16 and holding through opex -> LRCX/TXN guide up Oct 21 -> SOXX closes above 530.19 by Oct 23 -> Oct 28 FOMC holds and MSFT/GOOGL show capex with revenue -> retest of 545-559 in November. Intraday undercuts to ~490 tolerated.",
+   "confirming_signals": "QQQ holds 697; SMH holds 541.50; basket breadth back above 50% of names over the 50-day; SOXX/SPY reclaims its 50-day; MU and SK Hynix stabilise; a TSMC-day green close above 512.6.",
+   "invalidation": "Any SOXX close below 497.40, or SMH below 541.50; a TSMC beat that still closes SOXX red below 510 (third good-news sale); QQQ close below 697."
+  },
+  {
+   "name": "deeper correction",
+   "definition": "465.00 <= lowest SOXX daily close Oct 15 - Dec 4 < 497.40 (holds the Jul 29 closing low); SMH 504.22-541.50; SOX 10,447-11,131",
+   "probability_pct": 39,
+   "bottom_zone_low": 465.0,
+   "bottom_zone_high": 497.0,
+   "bottom_zone_drawdown_from_high_pct": "-15.6% to -21.1% from 589.51 (core 474-492 = -16.5% to -19.6%); -24.1% to -29.0% from the 655.01 record",
+   "timeframe": "Oct 21 - Nov 10, 2026; mode Oct 28 - Nov 4",
+   "path": "497.40 breaks around Oct 16-22 as memory/semicap de-grossing continues and QQQ tests 680-700 -> flush into the Oct 28 - Nov 4 cluster (FOMC + MSFT/GOOGL/KLAC Oct 28, INTC Oct 29, AMD Nov 3, ARM Nov 4) into the 474-492 support cluster (rising 200-day 474-486, YTD AVWAP 476.52, 50% of Mar-Jun run 482.40, 78.6% 491.65) -> capitulation signature marks the low -> recovery to ~510-530 into NVDA's results.",
+   "confirming_signals": "Low-day SOXX volume >2x 50-day with a close in the upper half of the range; basket breadth <=5% then reversing; VIX/VIX3M briefly >1; HY OAS 3.3-3.46% but not above; SMH holds 504.22; QQQ holds 661.73.",
+   "invalidation": "Upside: every close >=497.40 through Oct 30 plus a close above 530.19 (-> shallow). Downside: a SOXX close below 465.00, especially before Oct 28; HY OAS above 3.46%; QQQ below 661.73."
+  },
+  {
+   "name": "trend break",
+   "definition": "Lowest SOXX daily close Oct 15 - Dec 4 < 465.00 (Jul 29 close = new cycle low below the Jun-Jul crash low, and below the 200-day); SMH < 504.22; SOX < 10,447",
+   "probability_pct": 35,
+   "bottom_zone_low": 420.0,
+   "bottom_zone_high": 460.0,
+   "bottom_zone_drawdown_from_high_pct": "-22% to -29% from 589.51 (core 435-455 = -22.8% to -26.2%; tail ~400-410 = -30% to -32%); -30% to -36% from the 655.01 record (tail -39%)",
+   "timeframe": "Nov 3 - Dec 4, 2026, with real risk the low comes after the window (Dec 9 FOMC); a fast variant can break 465 in late October",
+   "path": "Oct 28 hike with hawkish guidance, or mega-cap capex punished (July GOOGL/META pattern) while memory rolls over -> QQQ below 683.7 then 661.73 -> AI credit spreads (CoreWeave ~Nov 10, HY OAS >3.46%) -> SOXX traverses the 465-495 air pocket to the measured move 435.7 / 61.8% of Mar-Jun 441.66 -> NVDA's results (Nov 18-25, unannounced) fail to stop it (7 of last 9 prints lower 5 sessions later).",
+   "confirming_signals": "SOXX close below 497.40 on >2x volume before Oct 21 (early break = acceleration); SMH below 504.22; NVDA below 208.8; SOXX/SPY relative lower low under its Sep 14 level; 10y above 5.31%; HY OAS above 3.46%; CoreWeave 2032s below 75c; weak LRCX/KLAC guides.",
+   "invalidation": "Every SOXX close through Dec 4 holds 465.00; a capitulation reversal (>2x volume, breadth washout, VIX curve inversion that reverses) above 465 shifts to deeper. A V-shaped flush below 465 still counts as a trend break on price."
+  }
+ ],
+ "distinguishing_evidence": "Oct 15-16: TSMC reaction - a green SOXX close above 512.6 that holds through Oct 16 opex (shift toward shallow, ~35%) vs a fade or a close below 497.40 (toward trend break, ~42%); SMH vs 541.50. To Oct 23: a close above 530.19 favours shallow; a break of 497.40 on >2x volume before Oct 21 favours trend break over deeper (early break = acceleration); LRCX/TXN Oct 21 guides (memory WFE after the Korea rout; analog = last strong subgroup). Oct 28 - Nov 4: whether a break below 497 meets a capitulation signature above 465 (deeper: volume >2x, breadth <=5% then reversal, VIX/VIX3M >1 briefly, HY OAS <=3.46%) or a credit/QQQ break (trend break: QQQ <683.7 then <661.73, HY OAS >3.46%, 10y >5.31%); hyperscaler reaction function on Oct 28 (capex up with the spender's stock up = July-low pattern). Nov 10-25: CoreWeave financing, then NVDA's print - weak bottoming base rate.",
+ "strongest_bull_points": "(1) The post-July base is intact until 497.40 breaks: higher high (589.51 vs 559.12) and higher low (497.40 vs 465.00), +11.5% above a 200-day rising 5.9%/20 sessions; SOXX/SPY +5.8% above its 200-day with no relative lower low. (2) Unbiased SOX base rates from the close state (first close <=-11.6% vs 60-day high, above rising 200-day): 42-45% shallow, median low -16.1% to -16.6% (~492-495), median 6-10 sessions to the low, 24-30% bottom on the signal day [calc]. (3) Breadth near washout: 14% above 50-day vs 17% at the Sep 14 low that launched +18.5%. (4) Puts are bid (SOXX P/C 2.59 vs 1.87), hedging rather than euphoria. (5) Hard fundamentals keep rising - TSMC Q3 revenue NT$1,494.2bn +50.9% y/y, ASML 2027-28 supply short of demand, Micron FQ1 guide $61.5bn - and the July low came on a hyperscaler print (MSFT Jul 30, SOXX +8.5%); the same cluster arrives Oct 21-28. (6) NVDA/AVGO quality is holding (NVDA/SOXX +5%), and a dense 465-486 demand cluster (200-day path, YTD AVWAP 476.52, 482.40 Fib, Jul 29 low) sits below.",
+ "strongest_bear_points": "(1) The breakout failed on distribution volume (Oct 2 6.88M vs 10.36M/10.67M down days) and SOXX sits below every key AVWAP and, overnight, below the Sep 17 gap and the 61.8% retracement; the Jun 22 lower-high structure is intact. (2) Top-down mapping (mandatory) gives trend break 41-42%: tech deeper (40%) maps to SOXX ~440-480, tech break (25%) to <=440. (3) From the overnight state (-13.6% from the swing high) the base rate is 20-25/40-46/31-40 with a median low ~483 [calc]. (4) De-grossing is accelerating, not exhausting: Asia memory/equipment -7% to -11% overnight; good news is sold (ASML beat-and-raise ADR -3.9%; MU -16.7% after its best-ever guide). (5) The debate has moved to financing (CoreWeave 2032s <78c, IMF circular-financing warning, Hock Tan 'capital'), which no earnings beat answers. (6) No capitulation (volume 1.52x, VIX/VIX3M 0.90, no downgrades), crowded positioning (BofA most crowded trade), only ~7.7% of 3-month volume in the 465-495 air pocket, a hiking Fed with real yields at 2008 highs, and the 2018 tightening-midterm analog (SOX -14.6% further from Oct 14 -> ~443).",
+ "verdict_most_likely_bottom_zone": "SOXX 474-497 on a closing basis (core 480-492; median lowest close ~480-485), i.e. -4.3% to -8.7% from the Oct 14 close, -15.7% to -19.6% from the 589.51 Oct 5 closing high, -24.1% to -27.6% from the 655.01 record; SMH ~515-541; SOX ~10,640-11,120. Most likely forms Oct 28 - Nov 4 (window Oct 21 - Nov 10). Deeper correction is modal at 39% but trend break (35%) is a close second; shallow 26%. Not a buy-the-dip call.",
+ "verdict_confidence": "Low-to-medium, roughly 39% on the modal bucket (vs 33% for a uniform guess), and about 65% that SOXX holds 465 on closes through Dec 4. Confidence is limited because (a) the top-down mapping (24-26/34/41-42) and the semis-only base rates (42-45/29-33/24-29 from the close; 20-25/40-46/31-40 from the overnight state) disagree; (b) the analog samples are small (n=10-31, conditional bins n=3-19); (c) TSMC results were pending at writing and the overnight print is not a close; (d) the 497.40 hinge is only 2.4% below the overnight price, so one session can move ~10 points of probability.",
+ "single_most_important_level": "SOXX 497.40 on a closing basis (Sep 14 low / Aug-Sep range floor, on the 3-month volume POC 500.28; 495.15 intraday). Equivalents: SMH 541.50, SOX 11,131. Secondary: 465.00 (Jul 29 close; ~200-day) = deeper vs trend break.",
+ "single_most_important_event": "Wed Oct 28: FOMC decision at 2:00 pm ET (hike odds 24-32% late Oct 14), then MSFT, GOOGL and KLAC after the close - the hyperscaler capex reaction function plus the semicap guide. TSMC Q3 (Oct 15, ~05:30-06:00 UTC; not out at ~04:12 UTC) is the first tape test.",
+ "what_would_change_verdict": "Toward shallow (>40%): a TSMC green SOXX close above 512.6 that holds through Oct 16 opex; a close above 530.19 by Oct 21; basket breadth >50% above the 50-day; QQQ closes above 731 and holds 697. Toward trend break (>50%): an early SOXX close below 497.40 (especially >2x volume, before Oct 21) together with QQQ below 697; QQQ below 683.7 before Oct 28; HY OAS above 3.46%; CoreWeave 2032s below 75c; an Oct 28 hike with hawkish guidance; weak LRCX (vs $8.10bn) or KLAC guides; continued memory collapse (MU, SK Hynix). Toward deeper from trend break: a capitulation reversal (volume >2x, breadth <=5%, VIX/VIX3M >1 then back <1) printing above 465.",
+ "sources": [
+  "data/DATA_BRIEF.md and companions (levels.json, base_rates.json, betas_ratios.txt, analog_forward_returns.txt, breadth.json) - Yahoo daily OHLCV through the Oct 14 close, cross-checked vs IBKR",
+  "Local Yahoo CSVs data/SOXX.csv, SMH.csv, _SOX.csv, QQQ.csv, NVDA.csv; long ^SOX/^NDX histories analysis/sent/long/",
+  "My scripts: scratchpad/sv_scripts/levels_verify.py, sox_baserates.py, incr_beta.py, extra.py, build_json.py",
+  "research/semis_leadership.md, catalysts.md, sentiment_positioning.md, macro_rates.md, oct8_narrative.md, oct8_skeptic.md, zz_verification_corrections.md; analysis/verify/facts.md, audit_market.md",
+  "analysis/market_verdict.md (with audit addendum), tech_verdict.md, semis_bull.md, semis_bear.md",
+  "IBKR real-time snapshots ~04:10 UTC Oct 15: SOXX (12658194) 509.46, QQQ (320227571) 720.92, NVDA (4815747) 218.25; SOXX IV 35.6%",
+  "WebSearch ~04:12 UTC Oct 15 - TSMC Q3 not yet released: https://www.kaohooninternational.com/?p=592325 ; https://cryptobriefing.com/tsmc-record-profit-sixth-quarter-ai/ ; https://www.tikr.com/blog/tsmcs-q3-earnings-preview-65-profit-growth-but-net-margin-seen-slipping-to-50 ; https://investor.tsmc.com/quarterly-results",
+  "Asia chip rout Oct 15 (via facts.md): AP via Yahoo https://finance.yahoo.com/markets/world-indices/articles/south-korea-benchmark-kospi-index-015023409.html ; Reuters via Investing.com https://www.investing.com/news/stock-market-news/asia-stocks-slump-as-chip-rout-deepens-after-hotter-us-inflation-4950421",
+  "TSMC monthly revenue 6-Ks (SEC EDGAR), ASML 6-K Oct 14, Micron 8-K Sep 30 (via catalysts.md)"
+ ],
+ "unverified": [
+  "TSMC Q3 2026 results and Q4 guide - pending when checked at ~04:12 and ~04:17 UTC Oct 15",
+  "Overnight IBKR prints (SOXX 509.46, QQQ 720.92, NVDA 218.25) are thin overnight trades, not closes; Asian index moves are intraday",
+  "Oct 28 hike odds 24-32% (venue-dependent; stale 35%/54% figures corrected per facts.md)",
+  "BofA FMS 45% semis-crowding share (SINGLE-SOURCE); SOXL +$711.9M inflow (one vendor)",
+  "NVDA Q3 FY27 earnings date not announced (realistic window Nov 18-25); AMZN, CoreWeave (~Nov 10), SK Hynix, Samsung full Q3 (~Oct 29, single-source) and AMAT dates are estimates",
+  "IMF GFSR circular-financing figures (secondary sources only)",
+  "Advocate statistics not re-run by me: bull's fast-leg set (16 legs), bear's lower-high subset (n=14) and 57-signal table",
+  "The conditional P(semis bucket | tech bucket) table is my judgment informed by small analog bins (n=3-19)",
+  "Rising-lows trend line (~520) is a subjective two-point line",
+  "Semis basket breadth uses current names (survivorship bias); 200-day projections assume flat prices; analogs weighted to 1995-2002",
+  "2018 midterm analog figures (SOX -13.3% by Oct 14, -26% at Dec 24) from sentiment_positioning.md, not re-computed"
+ ]
+}

@@ -375,3 +375,11 @@
 - **200-day projections:** assume a flat price path.
 - **Overnight prints:** thin, and not closes.
 - **TSMC:** results were pending when this was written.
+
+---
+
+## AUDIT ADDENDUM (analysis/verify/audit_tech.md)
+- The top-down mapping used stale market inputs (40/38/22); with the audited market 46/34/20 it gives **38/37/25**.
+- The "10y up ≥40bp → 0% trend break" rate analog was an artefact of a truncated yield history; with full history it is ~30/47/23.
+- **Corrected QQQ probabilities ≈ 37 shallow / 38 deeper / 25 trend break** — shallow vs deeper is a coin flip; "deeper leads" is not supported.
+- Unchanged: zones (700–716 / 672–692 / 620–655), boundaries (697 / 661.73), key level QQQ 697–700 close (XLK 180.5), key event Oct 28.

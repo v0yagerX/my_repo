@@ -210,7 +210,20 @@ Nov 3 is also US Election Day. AMD reports that evening.
      - macro_rates.md's +0.5% / +0.3% sits at the soft end, **so the hot-surprise bar is lower than the files imply.**
    - Jobless claims.
    - **Warsh fireside chat in Bangkok at 11:30 pm ET** (Fri local time), his last remarks before the blackout.
-6. **Minor NVDA items (Oct 14):**
+6. **Anthropic Q3 numbers (Reuters, shared with prospective investors Wed Oct 14; reported overnight)** ([Tribune/ANI citing Reuters, Oct 15](https://www.tribuneindia.com/news/business/anthropics-q3-revenue-jumps-45-to-usd-16-8-billion-ahead-of-anticipated-ipo)):
+   - Q3 revenue **$16.8bn, +45% q/q** (Q2 $11.6bn). It reported an **adjusted profit**.
+   - Analysts see a ~$110bn run rate by year-end. The IPO target valuation is reportedly >$2T, possibly after the midterms.
+   - This is a demand-side positive for the AI-compute narrative and partly offsets the OpenAI $50bn story. IBD's 03:10 UTC headline framed it as "Anthropic Revenue Jumps, But Not Enough?"
+7. **Bloomberg (03:41 UTC Oct 15):** "SK Hynix Down 57% From Peak as Chip Stocks Rout Intensifies". The Kospi fell as much as 7.9% intraday ([Bloomberg](https://www.bloomberg.com/news/articles/2026-10-15/chip-stocks-deepen-losses-as-concerns-mount-over-rates-ai-debt); [CNBC, Oct 15](https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html)).
+8. **Not new, so do not treat as overnight news:**
+   - A Google News item dated Oct 14 ("Nvidia says roadmap intact after Kyber rack delay report") is a **Jul 6, 2026** Stocktwits story about SemiAnalysis's Kyber-to-2028 report.
+   - The IDC "NVDA China share 34% in 1H26" is real: Reuters, IDC report dated Oct 13. Shipments were 678k, −44% y/y; Huawei 28% ([TechNode, Oct 14](https://technode.com/2026/10/14/nvidias-china-ai-chip-share-falls-to-34-as-huawei-reaches-28/)).
+9. **Other confirmations made while checking:**
+   - Micron's FQ1 FY27 guide is $61.5bn ±$1.5bn (Sep 30 8-K relays).
+   - Treasury 10y par yield was 5.31% on Oct 5 and 5.19% on Oct 14 (2y 4.82%, 30y 5.52%) ([Treasury](https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610)).
+   - Hock Tan's "no clue" / "casino" remarks were made at the DBS forum in Singapore on Oct 12, as relayed from Bloomberg.
+   - Kress's "$1.3 trillion in 2027" top-5 hyperscaler capex and "roughly a quarter of our business next year" from balance-sheet-backed AI labs are both in the Aug 26 transcript.
+10. **Minor NVDA items (Oct 14):**
    - Huang said NVIDIA could cut off buyers developing unsafe AI ("hypothetical").
    - NVIDIA pledged a $250m five-year UK compute donation and launched the cuPotential CUDA-X library.
    - None of these is material.

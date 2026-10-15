@@ -1,0 +1,212 @@
+{
+ "layer": "Broader tech (QQQ, XLK)",
+ "current_state": "QQQ closed 728.95 Oct 14: -4.04% from its 759.66 record close (Oct 6) and -4.45% from the 762.86 intraday high; session 6 of the pullback. It sits on its 50-day (726.66) and 50-day EMA (728.71), above the 100-day (720.83) and the rising 200-day (673.92, +8.2%); RSI 44.7. XLK closed 190.43: -5.73% from its 202.00 record, 0.3% above its 50-day (189.9), +14.0% above its 200-day. Overnight IBKR real-time: QQQ 721.00 (-1.09%, about 03:59 UTC Oct 15, about -5.1% from the record), below the 50-day and the Jul-low anchored VWAP 721.12, having filled the Sep 21 gap; XLK 188.12 (-1.21%). QQQ logged 7 distribution days in 25 sessions; Oct 8 and Oct 14 volume was 1.46x and 1.58x the 50-day average (XLK 1.58x/1.75x). A 126-day regression (QQQ = 0.39*SMH + 0.32*MEGA6, R2 0.95) attributes all of the Oct 6-14 drop to semis; the equal-weight AAPL/MSFT/GOOGL/AMZN/META/TSLA basket is -0.13%. Sources: DATA_BRIEF, tv_scripts/verify_claims.py.",
+ "key_levels": [
+  {
+   "name": "QQQ record close / intraday (759.66 / 762.86)",
+   "level_low": 759.66,
+   "level_high": 762.86,
+   "kind": "resistance",
+   "distance_pct_from_oct14_close": 4.21,
+   "reasoning": "Record close and intraday record (DATA_BRIEF). A new record close before Nov 20 would invalidate both the deeper and trend-break cases."
+  },
+  {
+   "name": "QQQ Oct 13 gap + Oct 6 anchored VWAP",
+   "level_low": 744.2,
+   "level_high": 746.45,
+   "kind": "resistance",
+   "distance_pct_from_oct14_close": 2.09,
+   "reasoning": "Unfilled Oct 13 down gap 744.2-744.85 and the VWAP anchored at the Oct 6 high, 746.45. Reclaiming it ends the pullback. Distance is to the nearer edge."
+  },
+  {
+   "name": "QQQ 20-day / 21-day EMA / 3-month volume node",
+   "level_low": 737.31,
+   "level_high": 742.55,
+   "kind": "resistance",
+   "distance_pct_from_oct14_close": 1.15,
+   "reasoning": "20-day 742.55, 21-day EMA 739.62, 3-month node 737.31: the short-term trend averages that have rolled over."
+  },
+  {
+   "name": "QQQ 50-day / 50-day EMA / Sep-start anchored VWAP (pivot, lost overnight)",
+   "level_low": 726.66,
+   "level_high": 731.23,
+   "kind": "resistance",
+   "distance_pct_from_oct14_close": -0.31,
+   "reasoning": "50-day 726.66, 50-day EMA 728.71, Sep-start anchored VWAP 731.23. The overnight 721 is below it. The first close back above 731.23 is the first bottoming signal."
+  },
+  {
+   "name": "QQQ volume POC / Jul-low anchored VWAP / 100-day band",
+   "level_low": 716.59,
+   "level_high": 722.0,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -0.95,
+   "reasoning": "6-month POC 719.62 (11.3% of volume), 3-month POC 718.73 (14.0%), Jul-low anchored VWAP 721.12, 100-day 720.83, node 716.59. Overnight QQQ is trading here."
+  },
+  {
+   "name": "QQQ Sep 17 gap / 50% Fibonacci / volume nodes",
+   "level_low": 707.5,
+   "level_high": 713.95,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -2.06,
+   "reasoning": "Sep 17 gap 711.88-713.32, 50% Fibonacci (Jul-Oct) 712.0, 23.6% Fibonacci (Mar-Oct) 713.95, nodes 713.56/710.53/707.5. Core of the shallow zone."
+  },
+  {
+   "name": "QQQ HINGE 697-705",
+   "level_low": 697.13,
+   "level_high": 704.72,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -3.32,
+   "reasoning": "Sep 16 close 704.72; Sep 16 low and 61.8% Fibonacci 700.0; Aug-Sep closing low 700.07; Jul 8 low 700.91; Mar-30 anchored VWAP 697.13. The 3-month range floor and the shallow/deeper boundary; it is also what the market layer's 7,505 S&P hinge implies at QQQ's beta."
+  },
+  {
+   "name": "QQQ -10% / 78.6% Fibonacci / 200-day path",
+   "level_low": 680.0,
+   "level_high": 693.96,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -4.8,
+   "reasoning": "-10% from the record 683.7; 78.6% Fibonacci 682.91; 38.2% Fibonacci of Mar-Oct 683.69; Aug-Sep intraday low 685.82; 3-month node 693.96; the 200-day projects to 680-695 between Oct 30 and Dec 4 on a flat path. Core of the deeper zone."
+  },
+  {
+   "name": "QQQ 200-day today",
+   "level_low": 673.92,
+   "level_high": 673.92,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -7.55,
+   "reasoning": "Rising 200-day SMA (20-day slope +1.86%)."
+  },
+  {
+   "name": "QQQ TREND LINE: Jul 29 low / YTD anchored VWAP",
+   "level_low": 659.23,
+   "level_high": 661.73,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -9.22,
+   "reasoning": "Jul 29 close 661.73 (low 661.14), YTD anchored VWAP 660.34, 50% Fibonacci of Mar-Oct 659.23. A close below makes a lower low versus the July correction low (-12.9% from the record): the trend-break boundary."
+  },
+  {
+   "name": "QQQ -15% / Apr 17 gap / 61.8% Fibonacci of Mar-Oct",
+   "level_low": 634.77,
+   "level_high": 645.7,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -11.42,
+   "reasoning": "-15% from the record 645.7; Apr 17 gap 642.18-644.07; 61.8% Fibonacci of Mar-Oct 634.77. Core of the trend-break zone."
+  },
+  {
+   "name": "XLK Oct 6 anchored VWAP / 10-day (% vs XLK 190.43)",
+   "level_low": 197.08,
+   "level_high": 198.16,
+   "kind": "resistance",
+   "distance_pct_from_oct14_close": 3.49,
+   "reasoning": "XLK's equivalent of the QQQ repair level. The record is 202.00 (+6.1%); the Sep-start anchored VWAP is 192.4 (+1.0%)."
+  },
+  {
+   "name": "XLK 50-day / 38.2% Fibonacci / Jul-low anchored VWAP (% vs XLK 190.43)",
+   "level_low": 188.04,
+   "level_high": 189.9,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -0.28,
+   "reasoning": "50-day 189.9, 38.2% Fibonacci 189.2, Jul-low anchored VWAP 188.04. Overnight 188.12 is testing it."
+  },
+  {
+   "name": "XLK gap / 100-day / 50% Fibonacci / volume POC (% vs XLK 190.43)",
+   "level_low": 183.75,
+   "level_high": 186.73,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -1.94,
+   "reasoning": "Sep 17 gap 186.13-186.73, 100-day 186.53, 50% Fibonacci 184.86, 6-month and 3-month POC 183.87/183.75."
+  },
+  {
+   "name": "XLK HINGE (% vs XLK 190.43)",
+   "level_low": 180.51,
+   "level_high": 182.08,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -4.38,
+   "reasoning": "61.8% Fibonacci 180.51, Sep 14 low 182.08; the equivalent of QQQ 697-700 at XLK's 1.31 beta to QQQ."
+  },
+  {
+   "name": "XLK deeper-zone cluster (% vs XLK 190.43)",
+   "level_low": 173.04,
+   "level_high": 178.82,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -6.1,
+   "reasoning": "Aug 24 low 178.82, Aug-Sep closing low 178.04, Mar-30 anchored VWAP 176.54, 78.6% Fibonacci 174.33, 38.2% Fibonacci of Mar-Oct 174.0, Aug-Sep intraday low 173.04."
+  },
+  {
+   "name": "XLK TREND LINE (% vs XLK 190.43)",
+   "level_low": 166.46,
+   "level_high": 167.1,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -12.25,
+   "reasoning": "Jul 29 close 166.57 (low 166.46) and today's 200-day 167.1. A close below is the XLK trend break."
+  }
+ ],
+ "internals_summary": "RELATIVE STRENGTH: QQQ/SPY 0.9472 is only +0.2% above its 50-day (0.9454) and +1.9% above its 200-day, and -4.5% from its Jun 18 high; on Oct 6 it was already 1.7% below that high, so the record lacked relative-strength confirmation. XLK/SPY is +0.1% vs its 50-day, +7.7% vs its 200-day, -5.2% from its Jun 2 high. QQQE/QQQ is -2.4% vs its 50-day and -6.9% from its Jul 29 high (narrow leadership); since Oct 6, QQQE (-3.6%) slightly beat QQQ (-4.0%). ROTATION (since the Oct 6 close): XLE +6.1%, XLP +5.2%, XLV +4.1%, TLT +2.1%, XLU +1.4%, XLF +0.9% vs XLK -5.7%, IWM -3.5%, XLI -2.6%, XLC -0.7%: defensive, not broadening. Oct 8: XLK -1.79%, QQQ -1.34%, RSP +0.60%, 67% of S&P members up, only 29% of IT members and 0% of semis up (rotation). Oct 14: XLK -2.98%, QQQ -1.97%, RSP -0.57%, S&P 241 advancers / 261 decliners, only 17% of IT members up and 21.8% of IT outside semis (the first broad day, reaching into software and hardware). IT BREADTH (75 members): above the 50-day fell from 76.0% (Oct 6) to 44.0%; above the 200-day 66.7%; median member -23.8% from its 1-year high, 57% at least 20% below. IT outside semis: 52.7% above the 50-day, but the median member is -20.9% from its high. MEGA-CAPS are the swing factor: AAPL at a record; MSFT -1.8% from its high; META -5.2%; GOOGL -13.7%; AMZN -10.5%. Every QQQ drop of 11% or more since 2024 needed the equal-weight mega-cap basket to fall 9% or more (Jul 2024 -15.9%, Oct 2025-Mar 2026 -17.6%, Jun-Jul 2026 -9.1%); today it is flat. VOL/POSITIONING: VIX 16.87, VIX/VIX3M 0.898, QQQ implied vol 17.0% (8th percentile), QQQ option put/call 0.84 vs 1.10 average: no capitulation (Jul 29 NDX low: VIX 20.66, ratio 0.961). BofA FMS net 37% overweight tech, highest since Aug 2020 (confirmed); discretionary long/short net leverage at the 2nd percentile and systematic at the 86th (single-source). RATES/CREDIT: Fed hiked Sep 16; Oct 28 hike odds about 35% (single source); 10-year 5.19%, real 2.88% (highest since 2008); HY OAS 3.16% (91st percentile), CCC spreads at a 3-year high; yields fell 12 bp while QQQ fell 3.6% (not rate-driven, but no rate safety net). Sources: DATA_BRIEF, tv_scripts/verify_claims.py and it_breadth.py, sentiment_positioning.md, macro_rates.md, IBKR.",
+ "upper_layer_conditioning": "Market verdict: S&P 500 shallow 40% (low >= 7,505), deeper 38%, trend break 22%; median low about 7,480. QQQ beta to SPY is 1.43 (1y) / 1.62 (6m) / 1.50 (3m), correlation about 0.91; XLK 1.75-2.00. By beta, the market layer's zones map to QQQ as follows: shallow core 7,580-7,620 is about 708-716; the 7,505 hinge is about 696-700 (identical to my 697 hinge); deeper 7,370-7,460 is about 676-694; trend break 6,850-7,250 is about 605-662. Tech can decouple. (1) Downside via rotation: Jun-Jul 2026, QQQ -11.3% and XLK -16.0% while RSP rose +2.7% and the S&P 500 held -4.5%. (2) Holding up in a broad selloff driven by rates or equal weight: Dec 2024, S&P -4.3%, QQQ -6.1%. Conditional mapping: P(tech shallow / deeper / break) is about 0.72/0.25/0.03 given market shallow, 0.13/0.64/0.23 given market deeper, and 0.03/0.17/0.80 given market trend break. Combined with the market weights that gives about 34/38/28: the top-down layer by itself requires roughly 25-30% trend-break risk for tech. For the layers below: SOXX's beta to QQQ is 2.04-2.26 (it amplifies tech). NVDA's beta to QQQ is 1.16-1.30 but only 0.39-0.52 to SOXX: NVDA can decouple from semis, not from QQQ.",
+ "scenarios": [
+  {
+   "name": "shallow pullback",
+   "definition": "Lowest QQQ daily close from Oct 15 to Fri Dec 4 holds at or above 697.0 (Mar-30 anchored VWAP 697.13 / Sep 16 low 700.0 / 61.8% Fibonacci 700.0). XLK equivalent: holds about 180.5.",
+   "probability_pct": 35,
+   "bottom_zone_low": 700,
+   "bottom_zone_high": 716,
+   "bottom_zone_drawdown_from_high_pct": "-5.7% to -7.9% from the 759.66 record close (core 705-713 = -6.1% to -7.2%); XLK 180.5-186 = -7.9% to -10.6% from 202.00",
+   "timeframe": "Oct 15-23 (Oct 16 opex, Oct 21 META and VIX expiration); Oct 29 at the latest",
+   "path": "1) Opex and TSMC wash out at 705-716. 2) META (Oct 21) is received well. 3) QQQ closes above 731.23 by Oct 23. 4) The Oct 28 FOMC holds, and MSFT/GOOGL show capex with revenue (the July reaction function: MSFT +15.5%, AMZN +15.3%). 5) QQQ reclaims 746.45 in November and retests the highs into NVDA's results.",
+   "confirming_signals": "The equal-weight mega-cap basket holds within -3% of its Oct 14 level; QQQ/SPY stays at or above 0.9454 (50-day); more than 60% of IT members get back above their 50-day; SMH holds about 540 or better; semis close green and hold after TSMC; the S&P 500 holds 7,505 with RSP above 207.16; VIX peaks below about 22.",
+   "invalidation": "Any QQQ close below 697 (or XLK below about 180); a new QQQ closing low after Oct 29; two of META/MSFT/GOOGL/AMZN close 5% or more lower the day after reporting."
+  },
+  {
+   "name": "deeper correction",
+   "definition": "661.73 <= lowest QQQ daily close (Oct 15 - Dec 4) < 697.0. XLK equivalent: about 166.6-180.5.",
+   "probability_pct": 40,
+   "bottom_zone_low": 672,
+   "bottom_zone_high": 692,
+   "bottom_zone_drawdown_from_high_pct": "-8.9% to -11.5% from 759.66 (core 680-690 = -9.2% to -10.5%); XLK 171-178 = -11.9% to -15.3% from 202.00",
+   "timeframe": "Oct 27 - Nov 13 (FOMC + MSFT/GOOGL Oct 28, AMZN (est.) and PCE Oct 29, midterms Nov 3, payrolls Nov 6, CPI and CoreWeave (est.) Nov 10); most likely Oct 28 - Nov 10",
+   "path": "1) 716-722 fails and 697-705 breaks around Oct 21-29. 2) The mega-caps join semis: capex punished as in July (GOOGL -7.1%, META -8.0%) and/or an Oct 28 hike. 3) A flush to 680-690 (-10%, 78.6% Fibonacci, rising 200-day) with VIX/VIX3M briefly above 1 marks the low. 4) QQQ recovers toward 720-730 into NVDA's results.",
+   "confirming_signals": "The equal-weight mega-cap basket falls 5-9%; QQQ/SPY closes below 0.9454 for 3+ sessions; the S&P 500 closes below 7,505 while RSP holds about 207 or better; VIX/VIX3M at or above 1 on the flush; HY OAS 3.3-3.46% but no higher; the 10-year stays below 5.31%.",
+   "invalidation": "Upside: QQQ holds 697 through Oct 29 after the mega-cap reports and reclaims 746.45. Downside: a QQQ close below 661.73 (XLK below 166.57), HY OAS above 3.46%, the 10-year above 5.31%, or VIX/VIX3M above 1 for 3+ sessions."
+  },
+  {
+   "name": "trend break",
+   "definition": "Lowest QQQ daily close (Oct 15 - Dec 4) below 661.73, the Jul 29 closing low (also below the YTD anchored VWAP 660.34 and well below the rising 200-day). XLK equivalent: below 166.57.",
+   "probability_pct": 25,
+   "bottom_zone_low": 620,
+   "bottom_zone_high": 655,
+   "bottom_zone_drawdown_from_high_pct": "-13.8% to -18.4% from 759.66 (core 635-650 = -14.4% to -16.4%); tail about 608 = -20%; XLK about 153-165",
+   "timeframe": "Nov 10 - Dec 4; real risk the low comes after the window (Dec 9 FOMC, Dec 11 continuing-resolution deadline; the 2018 tightening-midterm low came on Dec 24)",
+   "path": "1) An Oct 28 hike with a signalled follow-up, or the 10-year breaks 5.31%, or AI-credit stress (CoreWeave, Oracle) spreads to the hyperscaler borrowers. 2) The mega-cap basket falls 10% or more; XLK loses 166.57. 3) QQQ loses 661.73 toward 635-655. 4) NVDA's results fail to stop it (7 of NVDA's last 9 prints were lower five sessions later).",
+   "confirming_signals": "The S&P 500 below 7,314 and RSP below 200.5 (market layer); HY OAS above 3.46% and IG above 1.0%; VIX/VIX3M above 1 for 3+ sessions; SMH below 503.6 (Jul 29 low); QQQ/SPY below its 200-day (about 0.929); fewer than 40% of S&P members above their 200-day.",
+   "invalidation": "Every QQQ close through Dec 4 holds 661.73. A quick reversal after a flush, with HY OAS back below 3.0% and the VIX curve in contango, limits the damage, but a V-shaped flush below 661.73 still counts as a trend break on price."
+  }
+ ],
+ "distinguishing_evidence": "Oct 15-16: does QQQ close back above 716-722 (POC / Jul-low anchored VWAP / 100-day) after TSMC, PPI/retail sales and opex? Do semis close green and hold? A first close above 731.23 by Oct 23 favours shallow. Oct 21-29: the mega-cap reaction function. Capex up with the spender's stock up (July MSFT/AMZN) favours shallow; capex up with the stock down (July GOOGL/META) favours deeper. Track the equal-weight mega-cap basket versus Oct 14 (holding within -3% = shallow; -5% to -9% = deeper; -10% or more = trend break), QQQ/SPY versus its 50-day 0.9454, and the Oct 28 FOMC (hold versus hike plus guidance). Late Oct - Nov: if 697 breaks, is the break met by a volatility flush (VIX/VIX3M at or above 1 for 1-2 sessions, HY OAS at or below 3.46%), which marks a deeper low, or by a credit break (HY OAS above 3.46%, 10-year above 5.31%, VIX/VIX3M inverted for 3+ sessions), which signals a trend break? A close below 683.7 before Oct 28 would signal acceleration. IT breadth back above 60% of members over their 50-day, and QQQE/QQQ reclaiming its 50-day, would show broadening.",
+ "strongest_bull_points": "(1) All of the damage is in semis: QQQ = 0.39*SMH + 0.32*MEGA6 (R2 0.95), the SMH term explains the whole -4.04%, and the mega-cap basket is -0.13% since Oct 6 (AAPL at a record, MSFT -1.8%, META +13.5% above its 50-day). Every 11%+ QQQ correction since 2024 needed mega-caps to fall 9% or more. (2) The primary trend is intact: the 50-day and 200-day are rising, QQQ is +8.2% above its 200-day, and QQQ/SPY and XLK/SPY are above their 200-days. (3) The generic NDX base rate is 59% shallow (n=83), and the post-recovery set 67% shallow (n=55). (4) The July reaction function: QQQ's low close of 661.73 came on FOMC/META night, then +3.3% the next day and +9.4% after 10 sessions as MSFT rose +15.5% and AMZN +15.3%. (5) The overnight 721 is already inside the 716-722 volume/anchored-VWAP/100-day cluster; QQQ's 10-day analog has a median of +1.2% and was positive 71% of the time. (6) Discretionary hedge funds are light (2nd percentile, single source), buyback windows are reopening, midterm NDX Oct 14-Dec 31 median is +5.1% (90% up, n=10), and the fundamentals (TSMC Q3 revenue +50.9% y/y, ASML sold out for 2027-28) are strong.",
+ "strongest_bear_points": "(1) Conditioned on today's state the base rates darken: NDX with SOX 10%+ below its 20-day high gives 43/29/29 (n=14); adding VIX < 20 gives 40/20/40 (n=10); since 2003 that set gives 20/40/40 (n=5); XLK in its own -5% to -8% state gives 37/47/16; QQQ/XLK given -5% since Oct 2023 had median final depths of -11.75% and -16%. (2) The top-down mapping alone implies about 28% trend-break risk. (3) The record was unconfirmed: QQQ/SPY 1.7% below its June relative high, QQQE/QQQ 7.3% below its July high; the median IT member is -23.8% from its high; Oct 14 spread beyond semis (only 21.8% of IT outside semis rose). (4) The mega-caps report from much higher bars (MSFT +18.3%, META +36.8% above their Jul 30 closes) into an Oct 28 stack of FOMC (about 35% hike odds), MSFT and GOOGL, with the AI-financing narrative (CoreWeave about 15% yield, Oracle -58%, CCC spreads at a 3-year high) aimed at the hyperscalers. (5) No capitulation: VIX 16.87, VIX/VIX3M 0.898, QQQ implied vol at the 8th percentile; tech overweight at its highest since Aug 2020; 7 distribution days in 25. (6) Hiking Fed and real yields at 2008 highs: the 10-year +40bp analog set puts 77% in the deeper bucket. The QQQ 40-day analog median is -0.6% (40% positive).",
+ "verdict_most_likely_bottom_zone": "QQQ 680-700 closing basis (-7.9% to -10.5% from the 759.66 record close; -4.0% to -6.7% from the 728.95 Oct 14 close); XLK 174-181 (-10.4% to -13.9% from 202.00). Median low about 688-690, most likely forming Oct 28 - Nov 10. The deeper-correction bucket (40%) is only narrowly ahead of shallow (35%).",
+ "verdict_confidence": "Low-to-medium, about 40%. The leading bucket (deeper, 40%) beats shallow (35%) by only 5 points. The state-conditioned base-rate samples are small (n=5-14) and lean on the 1990s. The outcome hinges on binary mega-cap and FOMC events on Oct 21-29 that the data cannot forecast. TSMC Q3 was not yet out when this was written.",
+ "single_most_important_level": "QQQ 697-700 on a closing basis (Mar-30 anchored VWAP 697.13; Sep 16 low, 61.8% Fibonacci and Aug-Sep closing low about 700): the 3-month range floor and the shallow/deeper boundary, equal to the market layer's S&P 7,505 hinge at beta. XLK equivalent 180.5. Second: 661.73, the trend-break line.",
+ "single_most_important_event": "Wed Oct 28: FOMC decision at 2:00 pm ET (about 35% hike odds, single source), then Microsoft and Alphabet results after the close, with Amazon (about Oct 29, estimated) and Q3 GDP/September PCE on Oct 29. The mega-caps decide whether tech's floor holds.",
+ "what_would_change_verdict": "Toward shallow (above 50%): QQQ closes above 731.23 and then 746.45 before Oct 28; or QQQ holds 697 through Oct 29 with at least two of META, MSFT, GOOGL and AMZN up after reporting and the mega-cap basket within -3%; or IT breadth above 60% of members over their 50-day and QQQ/SPY holding 0.9454. Toward trend break (above 40%): a QQQ close below 683.7 before Oct 28; the mega-cap basket -8% from Oct 14; an Oct 28 hike with a signalled follow-up; the 10-year above 5.31% or HY OAS above 3.46%; SMH below 503.6; the S&P 500 below 7,505 with RSP below 207.16 (the market layer's own shift toward deeper or a break).",
+ "sources": [
+  "data/DATA_BRIEF.md (Yahoo daily OHLCV through the Oct 14 close, cross-checked with IBKR; S&P 500 breadth; FRED)",
+  "data/betas_ratios.txt, analog_forward_returns.txt, base_rates.json, levels.json, breadth.json, live_snapshots.md",
+  "analysis/market_verdict.md (upper-layer verdict)",
+  "analysis/tech_bull.md and analysis/tech_bear.md (advocate briefs, numbers checked in tech_verdict.md section 3)",
+  "research/catalysts.md, macro_rates.md, sentiment_positioning.md, semis_leadership.md, oct8_narrative.md, oct8_skeptic.md",
+  "scratchpad/tv_scripts/verify_claims.py, it_breadth.py, base_rates_tech.py, base_rates_tech2.py (my calculations; NDX 1985-, SOX 1994-, QQQ 1999-, XLK 1998-, DGS10, VIX)",
+  "IBKR real-time snapshots Oct 15: QQQ (320227571) 721.00 at about 03:59 UTC; XLK (4215230) 188.12 at about 03:23 UTC; QQQ implied vol 17.0%, 8th percentile",
+  "WebSearch about 04:00 UTC Oct 15: TSMC Q3 results not yet out (previews: https://investinglive.com/stocks/tsmc-set-for-sixth-straight-record-profit-as-ai-demand-lifts-q3-earnings/ ; https://finance.yahoo.com/markets/stocks/articles/tsmc-q3-revenue-tops-own-113733291.html)"
+ ],
+ "unverified": [
+  "Oct 28 FOMC hike odds of about 35% (intraday 49-54%): single source (CME FedWatch as reported)",
+  "Hedge-fund net leverage at the 2nd percentile and systematic positioning at the 86th percentile: single-source Tickmill recaps",
+  "CoreWeave bonds at about 15% YTM and Oracle's downgrade to BBB-: single source",
+  "AMZN report date about Oct 29 is an estimate; NVDA's earnings date (Nov 17 or 18) is unconfirmed; AAPL's report date was not checked",
+  "QQQ ETF flows for Oct 13 conflict between vendors (+$6.38bn ETF Action vs -$1.16bn Yahoo/ETF.com)",
+  "The joint conditional probabilities mapping market scenarios to tech scenarios are analyst judgment, not computed",
+  "Base-rate sets conditioned on today's state are small (n=5-14) and weighted to 1995-2000; breadth uses current members only (survivorship bias)",
+  "200-day projections assume a flat price path",
+  "Overnight IBKR prints are thin and are not closes",
+  "TSMC Q3 results and guidance were not out at about 04:00 UTC Oct 15 and are not reflected"
+ ]
+}
