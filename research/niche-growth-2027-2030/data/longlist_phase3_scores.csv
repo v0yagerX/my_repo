@@ -1,0 +1,51 @@
+phase3_rank,id,niche,megatrend,emerging,size_2026,size_2030,cagr_panel,growth,visibility,supply,timing,substitution,cyclicality,evidence,weighted_score_40,score_spread_max,phase4_outcome
+1,L23,"HAMR nearline HDDs, 3.5-inch, >=30 TB",AI DC storage,False,$2.5-5.5B,$15-40B,35-60%,5,4,5,5,4,3,4,35,2,★ Top 10 #5 (prob-wtd 55%)
+2,L15,HBM4 logic base dies on foundry nodes (incl. cHBM),AI packaging/memory,False,$0.3-1.0B,$5-16B,50-90%,5,4,4,5,4,3,3,33,1,★ Top 10 #1 (prob-wtd 78%)
+3,L18,Low-CTE T-glass cloth/yarn for IC-substrate cores,AI packaging/memory,False,$0.22-0.33B,$0.6-1.1B,20-35%,4,4,5,5,4,3,4,33,1,"◆ deep-dived, prob-wtd 17%"
+4,L30,"Interceptor-class solid rocket motors, NATO+allies",Defense rearmament,False,$1.2-2.0B,$2.4-4.5B,22-35%,4,4,5,5,5,4,2,33,1,"◆ deep-dived, prob-wtd 22%"
+5,L01,UHP CW InP lasers and ELS modules for CPO/NPO,AI DC optics,False,$0.08-0.3B,$2-6B,50-90%,5,4,5,4,3,2,4,32,1,★ Top 10 #2 (prob-wtd 73%)
+6,L02,"Merchant optical circuit switches (OCS), AI fabrics",AI DC optics,False,$0.35-0.65B,$3-6B,40-75%,5,4,4,5,3,2,4,32,0,★ Top 10 #4 (prob-wtd 57%)
+7,L39,Transcatheter tricuspid valve replacement (TTVR),Healthcare & medtech,False,$0.25-0.5B,$1.0-1.7B,28-42%,4,4,4,5,3,5,3,32,0,★ Top 10 #10 (prob-wtd 27%)
+8,L43,"LEAP-1A/-1B OEM hot-section, HPT kit and LLP parts",Commercial aerospace,False,$1.5-3B,$6-11B,25-40%,4,4,5,5,4,4,2,32,1,"◆ deep-dived, prob-wtd 26%"
+9,L03,Merchant 300 mm SiPh PIC foundry wafers (CPO-grade),AI DC optics,False,$0.5-1.0B,$1.8-5.0B,40-70%,5,4,3,5,4,2,3,31,1,★ Top 10 #8 (prob-wtd 41%)
+10,L45,"NA/EU sintered NdFeB magnets (non-China, DFARS)",Critical minerals,False,$0.15-0.45B,$0.8-2.8B,40-70%,5,4,4,5,3,2,3,31,1,"◆ deep-dived, prob-wtd 56% (below gate)"
+11,L12,Ultra-high-cap low-voltage MLCCs (>=47 uF) for AI,AI DC power/thermal,False,$1.0-2.5B,$3-7B,20-35%,4,4,4,5,4,2,4,31,1,—
+12,L27,SF6-free HV (>=52 kV) switchgear and breakers,Grid & electrification,False,$0.7-1.6B,$3.5-6B,25-45%,4,4,4,4,4,4,3,31,1,★ Top 10 #6 (prob-wtd 43%)
+13,L21,"Next-gen ABF FC-BGA substrates (>=120 mm, >=24L)",AI packaging/memory,False,$0.2-0.6B,$4-10B,60-110%,5,4,5,4,3,2,2,30,1,—
+14,L46,Ex-China NdPr metal and NdFeB master-alloy,Critical minerals,False,$0.1-0.3B,$0.6-1.5B,35-60%,5,3,5,4,4,2,2,30,1,—
+15,L50,Driverless robotaxi ride-hail revenue (US/China/Gulf),L4 robotaxi autonomy,False,$0.5-1.2B,$4-18B,50-90%,5,3,3,5,4,3,2,30,1,—
+16,L07,Merchant scale-up switch silicon (PCIe/UALink/ESUN),AI DC copper/scale-up,False,$0.6-1.8B,$3.5-9B,30-55%,4,4,4,5,3,3,3,30,1,★ Top 10 #3 (prob-wtd 61%)
+17,L10,Vertical (backside) power modules for AI accelerators,AI DC power/thermal,False,$0.3-0.8B,$3-8B,40-75%,5,3,4,4,3,2,3,29,1,"◆ deep-dived, prob-wtd 70% (below gate)"
+18,L34,Broadband D2D satellite-to-phone wholesale service,Space & satellites,False,$0.15-0.4B,$1.5-5B,50-100%,5,3,4,4,3,3,2,29,0,—
+19,L47,"Ex-China separated Dy/Tb oxide, metal and alloys",Critical minerals,False,$0.04-0.2B,$0.3-1.4B,35-65%,5,3,5,4,3,2,2,29,1,—
+20,L16,HVLP4/5 copper foil for M8U/M9 ultra-low-loss CCL,AI packaging/memory,False,$0.17-0.31B,$1.0-1.8B,28-50%,4,3,5,5,3,2,3,29,1,★ Top 10 #9 (prob-wtd 35%)
+21,L26,765 kV EHV autotransformers and shunt reactors (US),Grid & electrification,False,$0.15-0.35B,$1.0-2.0B,28-50%,4,4,5,3,4,3,2,29,1,★ Top 10 #7 (prob-wtd 41%)
+22,L31,Low-cost expendable small turbojets (50-400 lbf),Military drones/C-UAS,False,$0.2-0.5B,$0.9-3.0B,30-55%,4,3,4,5,3,3,3,29,1,"◆ deep-dived, prob-wtd 27% (below gate)"
+23,L22,SOCAMM2 LPDDR modules for DC CPUs and inference,AI packaging/memory,False,$1-4B,$8-30B,40-70%,5,3,4,5,3,1,2,28,1,—
+24,L11,SOFC systems for data-center behind-the-meter power,AI DC power/thermal,False,$2.5-3.5B,$7-15B,25-40%,4,4,3,5,2,2,4,28,0,—
+25,L29,LWR nuclear-island heavy components and big forgings,Nuclear new build,False,$0.3-0.7B,$1.2-3.0B,20-55%,4,3,4,3,4,2,4,28,1,—
+26,L33,"NDAA-compliant Si-anode Li-ion cells, military drones",Military drones/C-UAS,False,$0.35-0.8B,$1.2-3.0B,25-45%,4,3,3,5,3,3,3,28,1,—
+27,L04,Merchant InP single-crystal substrates,AI DC optics,False,$0.4-0.65B,$1.2-2.2B,18-35%,3,4,4,5,3,2,4,28,1,—
+28,L05,"CPO fiber-to-chip connectivity (FAUs, PIC connectors)",AI DC optics,False,$0.05-0.15B,$1-3B,50-100%,5,3,3,4,3,2,2,27,0,—
+29,L06,200G/lane (1.6T) DSP-retimed active electrical cables,AI DC copper/scale-up,False,$0.1-0.3B,$1.5-3.5B,45-90%,5,3,3,4,2,2,3,27,1,—
+30,L08,AC-to-800 VDC power-conversion gear for AI racks,AI DC power/thermal,False,$0.1-0.35B,$4-9B,50-130%,5,3,2,4,3,2,3,27,1,"◆ deep-dived, prob-wtd 110% (below gate)"
+31,L28,FEOC-compliant N. American LFP grid-storage cells,Grid & electrification,False,$0.8-1.6B,$3.0-5.5B,25-45%,4,4,2,5,3,2,3,27,1,—
+32,L35,Commercial small-sat X-band SAR (sovereign/defense),Space & satellites,False,$0.6-1.3B,$2.5-4.5B,22-38%,4,3,3,5,3,3,2,27,1,—
+33,L42,Outsourced topo-I (exatecan/DXd) ADC payload-linkers,Healthcare & medtech,False,$0.3-0.7B,$0.8-2.0B,25-42%,4,3,3,5,3,3,2,27,0,—
+34,L19,OSAT-outsourced CoWoS-class 2.5D packaging,AI packaging/memory,False,$1.5-3B,$5-11B,25-45%,4,3,3,5,3,2,2,26,1,"◆ deep-dived, prob-wtd 24%"
+35,L40,"Outsourced GalNAc-siRNA/ASO API, cardiometabolic",Healthcare & medtech,False,$0.15-0.9B,$0.6-3.0B,25-45%,4,3,3,4,3,3,2,26,1,—
+36,L20,Panel-level CoPoS/FOPLP and CoWoP 2.5D for AI [em],AI packaging/memory,True,~$0 (pilot lines),$0.3-3B,n.m. (>100% from ~0),5,2,4,3,3,2,1,25,1,—
+37,L44,e-SAF / power-to-liquid jet fuel (EU/UK mandates) [em],Commercial aerospace,True,~$0 (pre-FID/pilot),$0.3-1.5B,n.m. (from ~0),5,2,4,2,3,2,2,25,1,—
+38,L13,Deep-trench silicon capacitors for AI package PDN,AI DC power/thermal,False,$0.15-0.5B,$0.6-2.0B,25-50%,4,2,4,4,3,3,1,25,0,—
+39,L25,Grid-forming PCS and controls for utility BESS,Grid & electrification,False,$0.3-0.8B,$2.5-5.5B,28-50%,4,3,2,4,3,2,2,24,0,—
+40,L24,High-NA (0.55 NA) EUV lithography scanners,Leading-edge fabs,False,$1.6-4.1B,$4.4-10B,12-30%,3,3,4,3,3,2,3,24,1,—
+41,L09,HV (+/-400 V/800 V) Li-ion BBU modules for AI racks [em],AI DC power/thermal,True,<$0.1B,$0.75-4B,60-130% (base effect),5,2,2,3,2,2,2,23,1,—
+42,L32,"Low-cost electric interceptor drones, NATO/allied",Military drones/C-UAS,False,$0.1-0.3B,$1.5-4B,45-90%,5,2,1,5,2,1,2,23,1,—
+43,L36,High-DoF (>=15 DoF) dexterous hands for humanoids,Humanoid robotics,False,$0.08-0.35B,$0.6-4.0B,40-90%,5,2,2,3,2,2,2,23,1,—
+44,L17,Quartz (Q-glass) fiber cloth/yarn for M9 CCL,AI packaging/memory,False,$0.1-0.3B,$0.35-1.5B,20-55%,4,2,4,4,2,1,2,23,1,—
+45,L49,CVD silicon-carbon (Si-C) composite anode material,Battery chemistry,False,$0.15-0.5B,$0.7-2.0B,25-45%,4,2,2,4,3,2,2,23,1,—
+46,L38,"Outsourced peptide API, next-wave incretin/amylin",Obesity/incretin drugs,False,$0.25-0.6B,$0.5-1.5B,12-32%,3,3,3,4,2,3,2,23,1,—
+47,L14,"Microchannel lid cold plates (MLCP), 3.5 kW+ chips [em]",AI DC power/thermal,True,$5-40M,$0.3-4B,n.m. (>100% from ~0),5,1,3,3,2,2,1,22,1,—
+48,L37,Merchant humanoid joint actuators incl. IPRS,Humanoid robotics,False,$0.04-0.25B,$0.4-3.0B,40-80%,5,2,2,3,2,1,2,22,1,—
+49,L41,2'-modified amidites and GalNAc building blocks,Healthcare & medtech,False,$0.1-0.3B,$0.3-0.9B,15-35%,3,2,4,4,3,2,1,22,1,—
+50,L48,Hard carbon anode material for sodium-ion cells,Battery chemistry,False,$0.15-0.55B,$0.6-2.5B,25-50%,4,2,2,4,2,1,2,21,1,—
