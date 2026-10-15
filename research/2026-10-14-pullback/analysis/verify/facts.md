@@ -1,10 +1,52 @@
 # Facts re-verification: decision-critical external claims
 
-*Verifier: facts. Started 03:48 UTC Oct 15, 2026 (11:48 pm ET Oct 14). I used fresh WebSearch and WebFetch, primary sources where I could reach them, live prediction-market APIs (Polymarket gamma API, Kalshi public API) and IBKR quotes (read-only). I did not reuse the research files' sources except to locate the claims under test.*
+*Verifier: facts. Started 03:48 UTC Oct 15, 2026 (11:48 pm ET Oct 14); final check 06:35 UTC (2:35 am ET). I used fresh WebSearch and WebFetch, primary sources where I could reach them, live prediction-market APIs (Polymarket gamma API, Kalshi public API) and IBKR quotes (read-only). I did not reuse the research files' sources except to locate the claims under test.*
 
 *Files present at audit time: analysis/market_{bull,bear,verdict}.md and .json; semis_{bull,bear}.md; tech_{bull,bear}.md; nvda_{bull,bear}.md. **Not present:** semis_verdict, tech_verdict and nvda_verdict (.md/.json). This report checks facts; where a finding contradicts text in an existing file, I name the file.*
 
-TSMC_PLACEHOLDER
+## 11. TSMC Q3 2026: RELEASED (Q3 results out; Q4 guide comes on the 06:00 UTC call)
+- **Status by check time:**
+  - **Not out** at 03:48, 04:05 and 05:33 UTC (WebSearch returned previews only).
+  - At **~05:35 UTC**, pr.tsmc.com listed "**TSMC Reports Third Quarter EPS of NT$29.43**" (dated 2026/10/15) ([TSMC PR](https://pr.tsmc.com/english/news/3346)), with the management report posted ([IR Q3 page](https://investor.tsmc.com/english/quarterly-results/2026/q3)).
+  - The posted earnings release and presentation are the "**WoG**" (without guidance) versions. **Q4 guidance is given on the call** at 14:00 Taiwan time (06:00 UTC, 2:00 am ET).
+- **Q3 actuals vs guide / consensus:**
+
+  | Item | Actual | Guide / consensus |
+  |---|---|---|
+  | Revenue | NT$1,494.24bn (+17.6% q/q, +50.9% y/y); **US$46.72bn** | July guide was US$44.6–45.8bn, so a **beat** (already known from monthly sales) |
+  | **Gross margin** | **66.4%** (2Q 67.7%; 3Q25 59.5%) | Guide 65–67%, so **mid-range**; consensus ~66.5% |
+  | **Operating margin** | **58.7%** (2Q 60.3%) | Guide 56–58%, so **above the top** |
+  | **Net income** | **NT$763.06bn** (+8.0% q/q, +68.7% y/y); net margin 51.1% | LSEG SmartEstimate NT$746.3bn, so a **beat by ~2.2%**, a sixth straight record |
+  | EPS | NT$29.43 (US$4.60/ADR) | |
+
+  - **Node mix:** 2nm 8% of wafer revenue (from 3% in 2Q), 3nm 33%, 5nm 28%, 7nm 10%; advanced (≤7nm) 79%.
+  - **Platform:** **HPC 68%** (2Q 66%; 3Q25 57%). HPC grew +22% q/q; Smartphone 21% (+10% q/q).
+  - **Geography:** North America 79%, China 5%.
+  - **Capex:** **US$13.84bn in Q3**, US$40.64bn YTD. That leaves ~US$19–23bn for Q4 if the US$60–64bn 2026 range holds; any change will come on the call.
+  - **Free cash flow:** NT$476.6bn.
+  - Source: [3Q26 Management Report, Oct 15, 2026](https://investor.tsmc.com/english/encrypt/files/encrypt_file/qr/phase4_reports/2026-10/f53a64fd40fc0b453f94e077e5aba8cad506f27b/3Q26%20ManagementReport.pdf) (pdftotext extraction).
+- **Reaction so far (IBKR, read-only):**
+  - TSM ADR overnight **417.80, −2.84%** at 05:33 UTC. That is weaker than −1.64% at 03:57 UTC, pre-release.
+  - NVDA 218.60 (−1.22%), SOXX 509.34 (−1.94%), ES Dec 7,743 (−0.35%, delayed, 05:23 UTC).
+  - **Taiwan's cash session closed (13:30 local = 05:30 UTC) before the release.** TSMC (2330) traded ~−2% intraday (IBKR NT$2,440 at 03:38 UTC; AP −2.2%), so the Taiwan share reaction comes Friday.
+- **Read:**
+  - A clean beat on profit and operating margin.
+  - The gross margin fell 1.3 pp q/q, as guided (2nm ramp, overseas fab dilution).
+  - **The tradeable items are not yet known:** the Q4 revenue/GM guide, the 2026 capex range, 2027 commentary, CoWoS/AI remarks. The early overnight ADR tape is soft.
+
+- **Final check, 06:35 UTC (2:35 am ET):**
+  - **Q4 2026 guidance, 2026 capex update, 2027 / CoWoS / AI remarks: still UNVERIFIABLE.**
+    - The call began at 06:00 UTC, but no outlet had published the guide yet: Google News TSMC feed, Reuters/CNBC/Bloomberg/Nikkei headlines, and WebSearch all checked.
+    - The IR page still showed only the "_WoG" release and presentation.
+    - The Reuters brief (updated 01:42 am ET) has no guidance.
+    - **The next agent must pull the guide before using TSMC as a catalyst.**
+  - **Benchmark for the guide:** a Morgan Stanley preview had Q4 at +10–15% q/q, about US$51.4–53.7bn. A guide at or below ~US$51bn, or a GM guide below ~65%, would disappoint.
+  - **ADR reaction so far (IBKR overnight, real-time):**
+    - TSM **423.11 (−1.60%)** at 06:34 UTC. That is a recovery from the post-release low of **417.80 (−2.84%)** at 05:33 UTC, and roughly back to the pre-release −1.6%.
+    - An Investing.com ticker widget showed TSM −3.40%, untimed.
+    - NVDA 218.52 (−1.26%), SOXX 511.70 (−1.49%) at 06:33–06:34 UTC.
+    - **The beat has not reversed the overnight semis tape.**
+  - **Sources:** [Reuters via Investing.com, 01:35/01:42 am ET](https://www.investing.com/news/stock-market-news/tsmc-q3-profit-jumps-69-to-record-beating-expectations-4950551); [CNBC](https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html) (403); Bloomberg headline "TSMC's Profit Surpasses Expectations After AI Orders Rush In" (05:36 UTC).
 
 ---
 
@@ -13,7 +55,7 @@ TSMC_PLACEHOLDER
 | # | Claim | Verdict | Correction / note |
 |---|---|---|---|
 | 1 | FOMC hiked Sep 16 to 3.75–4.00%; Warsh is Chair; next FOMC Oct 27–28 | **CONFIRMED** | Vote 12–0 |
-| 2 | Oct 28 hike odds ~35% late Oct 14; >95% odds of a hike by year-end | **PARTLY CONFIRMED, now STALE** | By 11 pm–midnight ET, market pricing was **~24–28%** for Oct 28 (not 35%), and **~82–90%** for at least one more hike by Dec 9 (not >95%). The "54%" figure in catalysts.md is a peak or stale reading, not a current one |
+| 2 | Oct 28 hike odds ~35% late Oct 14; >95% odds of a hike by year-end | **PARTLY CONFIRMED, now STALE** | By 11 pm–midnight ET, market pricing for Oct 28 was **~24–32%**, not 35%: prediction markets ~24% and fed-funds futures 28–32%. Pricing for at least one more hike by Dec 9 was **~82–91%**, not >95%. The "54%" figure in catalysts.md is a peak or stale reading, not a current one |
 | 3 | Sep CPI: +0.6% m/m, 3.7% y/y; core +0.3%, 2.6% | **CONFIRMED** (BLS) | Consensus (LSEG): headline 0.6% / 3.6%, core 0.2% / 2.5%. **The headline m/m was in line**; the beats were y/y headline and both core prints |
 | 4 | FT Oct 8: OpenAI ~$50bn run rate vs ~$70bn reported; Anthropic-comparison / gross-vs-net explanation; Bloomberg ≥$70bn by year-end | **CONFIRMED**, with two nuances | Prior figure was **$68bn** (CNBC). Outlets give two different stories for the gap (see below) |
 | 5 | NVDA 8-K Aug 17: guarantees capped at $105bn, ~4.25 GW; supply commitments $279bn | **CONFIRMED** | Combined guarantee exposure is **$108.5bn**. Total of all commitment categories is **$366bn**, plus $56bn of AI-cloud and third-party lease commitments. The $279bn sits in the CFO commentary (8-K exhibit); I did not open the 10-Q itself |
@@ -22,7 +64,7 @@ TSMC_PLACEHOLDER
 | 8 | META Oct 21; MSFT Oct 28; GOOGL Oct 28; LRCX Oct 21; KLAC Oct 28; AMD Nov 3; AMZN | **CONFIRMED** for META, MSFT, GOOGL, LRCX, KLAC, AMD. **AMZN UNVERIFIABLE** | AMZN's date is not announced. It is estimated at about Oct 29 (last year's notice came Oct 16) |
 | 9 | CRWV −15.5% Oct 14; bonds ~15% yield; 2032s below 80c | **CONFIRMED** | Price data: −15.46%. CNBC (intraday): 2032 notes at 14.8% YTM. Overnight, Reuters says the 2032s are **below 78c** |
 | 10 | Brent ~$103–107 Oct 8–14; Hormuz disruption; Trump "no Iran strike before midterms" | **CONFIRMED** (minor range nit) | Closes **$104.28–106.65**; settle **$106.06** Oct 14. Brent fell to ~$104.3–104.7 overnight on reports the US may ease sanctions |
-| 11 | TSMC Q3 2026 results | see top section | |
+| 11 | TSMC Q3 2026 results | **RELEASED ~05:30 UTC.** Q3 CONFIRMED; **Q4 guide UNVERIFIABLE as of 06:35 UTC** | Net income NT$763.06bn beat NT$746.3bn; GM 66.4% (mid-guide); OM 58.7% (above guide); HPC 68%; Q3 capex US$13.84bn. TSM ADR −1.6% at 06:34 UTC (low −2.84%). The Q4 guide, capex and 2027 remarks come on the 06:00 UTC call and had not been published when I last checked |
 | 12 | ASML Q3: record ~€11.7bn; Q4 guide €14.2–15.2bn; shares −3.9% | **CONFIRMED** (6-K) | **The −3.9% is the NASDAQ ADR** (1,717.76 → 1,650.00). The Amsterdam close is unverified |
 | 13 | Microsoft Maia 300 | **CONFIRMED** (Oct 12) | "Multi-gigawatt deployments beginning in 2027" is in Microsoft's release. "**Potentially** more than 1M chips next year" is Reuters, not Microsoft. The 40% tokens/MW vs "leading GPU-based systems" is Guthrie's own projection |
 | 14 | Oracle cut to BBB− | **CONFIRMED, but misdated by implication** | **S&P**, **Jul 9, 2026** (BBB → BBB−; A-2 → A-3; stable). This is **not new news on Oct 14**. Moody's has a negative outlook; I found no Oct downgrade |

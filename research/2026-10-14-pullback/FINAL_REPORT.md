@@ -1,6 +1,6 @@
 # Where does the October 2026 pullback bottom? A top-down assessment
 
-**As of:** the Oct 14, 2026 close, plus overnight quotes to about 05:00 UTC Oct 15 (1:00 am ET).
+**As of:** the Oct 14, 2026 close, plus overnight quotes and TSMC's Q3 results to about 07:00 UTC Oct 15 (3:00 am ET).
 **Scope:** the broad US market → tech → semiconductors → NVDA.
 **Window:** every scenario is defined on the **lowest daily close from Oct 15 to Fri Dec 4, 2026** (36 sessions). That runs through about two weeks after NVDA's November earnings.
 
@@ -41,6 +41,16 @@ The most likely outcome for NVDA is a **deeper correction of about 12–16% from
   - Hyperscalers were 55% of NVDA's Q2 Data Center revenue.
 
   The first tape test is **TSMC's Q3 report on Oct 15** (see §9).
+- **TSMC update, about 07:00 UTC Oct 15.** TSMC beat and raised:
+  - a record profit;
+  - a Q4 revenue guide of +12% to +16% q/q;
+  - 2026 growth raised to about 44%;
+  - capex held at US$60–64bn;
+  - AI demand described as "very strong".
+
+  That closes the demand-driven route to a semis or NVDA trend break for now. But the overnight tape faded the news: TSM ADR −2.1%, SOXX about 509.5, NVDA about 217.9. **The US closes on Oct 15–16 decide whether the good news holds**:
+  - If SOXX closes green and holds through Friday's options expiration, NVDA shallow rises to about 41%.
+  - If the beat is sold, so that SOXX closes below 497.40 or NVDA below 214.45, NVDA trend break rises to about 24% and semis trend break to about 42%.
 
 ### What would change the verdict
 - **Toward shallow** (NVDA shallow above 45%), either of:
@@ -485,7 +495,7 @@ The Dec 4 scenarios measure *where the next low prints*. A trend change is a dif
 
 **Evidence against: this is a correction within a still-rising cycle**
 - **Hard data is still accelerating** (company filings):
-  - TSMC Q3 revenue +50.9% y/y;
+  - TSMC Q3 revenue +50.9% y/y; on Oct 15 it guided Q4 +12% to +16% q/q and raised 2026 growth to about 44%;
   - ASML says 2027–28 supply will not meet demand;
   - Micron's FQ1 guide is +13% q/q;
   - NVDA guides FY28 at about +70%, "supply-constrained";
@@ -507,8 +517,6 @@ The Dec 4 scenarios measure *where the next low prints*. A trend change is a dif
 
 ## 9. TSMC Q3 (Oct 15)
 
-*This section is written after the results are out; see the addendum below.*
-
 **How to read it (decided before the release)**
 - **Toward shallow:**
   - a Q4 guide up quarter on quarter;
@@ -521,7 +529,45 @@ The Dec 4 scenarios measure *where the next low prints*. A trend change is a dif
   - "inventory digestion" language;
   - or a beat that fades to SOXX below 497.40 or NVDA below 214.45. A faded beat would echo ASML and the July TSMC print, and be the strongest distribution signal.
 
-TSMC_ADDENDUM_PLACEHOLDER
+### Result (released about 05:30 UTC Oct 15; the with-guidance release was posted about 06:56 UTC; checked against TSMC IR documents)
+
+**Q3 2026**
+- **Revenue:** NT$1,494.2bn / **US$46.72bn**, above the US$44.6–45.8bn guide. Already known from the monthly sales reports.
+- **Gross margin:** **66.4%**, mid-guide, in line with the ~66.5% consensus. It fell 1.3 pp q/q on the N2 ramp.
+- **Operating margin:** **58.7%**, above the 56–58% guide.
+- **Net income:** **NT$763.1bn**, +68.7% y/y. A sixth straight record, ~2% above the LSEG SmartEstimate.
+- **Mix:** HPC was **68%** of revenue (+22% q/q); N2 was 8% of wafer revenue.
+- **Inventory:** days fell from 87 to **82**. No digestion.
+
+**Q4 2026 guide**
+- **Revenue US$52.3–54.3bn: +12% to +16% q/q** (midpoint +14%), against a street range of about +10–15%.
+- Gross margin 65–67%; operating margin 56.5–58.5%; FX assumption 31.8 NT$/US$.
+
+**On the call**
+- 2026 US$ growth raised to **about 44%**, from "slightly above 40%".
+- **2026 capex held at US$60–64bn.** 2026–28 capex "significantly higher than the past three years".
+- **AI:** "very strong" and a "multi-year structural" opportunity.
+- **2027 capacity:** N2-family capacity more than doubles in 2027; another Tainan 3nm fab is planned; advanced-node demand in early 2027 "strongly supports" the business.
+- **Caveat:** "prudent in planning 2027" for consumer and price-sensitive end markets. No 2027 growth figure, and no explicit CoWoS "demand exceeds supply" quote found.
+
+**Reading against the pre-registered rules**
+- **Fundamentals: pass the shallow test.**
+  - The guide is up, gross margin is at least 65%, capex is held, and growth was raised.
+  - **Every fundamental route to "deeper" or "trend break" is closed:** no flat guide, no gross margin below 63–64%, no digestion, no capex cut.
+  - This weakens the *demand* version of the semis bear case. The remaining bear case rests on **financing and credit, positioning, rates, and good news being sold**, not on AI demand.
+- **Tape: not confirming yet.** The rules require both halves.
+  - The TSM ADR popped to about 427 on the guide, then faded to about **420.5–420.9 (−2.1%)** by 07:00 UTC.
+  - At the same time: SOXX about **509.5 (−1.9%)**, NVDA about **217.9 (−1.5%)**, QQQ about 719.5 (−1.3%).
+  - This came amid an Asian macro risk-off after the hot CPI: the TAIEX fell 3.4%, KOSPI and KOSDAQ triggered circuit breakers, and 2330.TW had already closed −2.0% *before* the release.
+  - All of these are thin overnight prints, not closes.
+
+**What the probabilities do next**
+- **Unchanged until the US closes on Oct 15 and Oct 16** (options expiration). Semis stay at 25/37/38 and NVDA at 35/45/20.
+- **If the beat holds** (SOXX closes green above 519.42 and holds through Oct 16; NVDA at or above 216.7): semis about **35 / 37 / 28**, NVDA about **41 / 43 / 16**.
+- **If the beat fades** (SOXX closes below 497.40, or NVDA below 214.45): semis about **20 / 38 / 42**, NVDA about **27 / 49 / 24**. A record beat-and-raise sold would be the fourth "good news sold" event in the complex (MU, ASML, TSMC in July, and now this). That would be the strongest distribution signal in this analysis.
+- **In between** (SOXX red but at or above 497.40, especially a close below 510): semis shallow drops to about 15–20%, with the points mostly going to deeper. NVDA stays about 33/47/20 if it holds 214.45.
+
+The NVDA shifts are interpolations of the verdicts' directional rules. Only the semis end-states (~35% and ~42%) were pre-registered.
 
 ---
 
