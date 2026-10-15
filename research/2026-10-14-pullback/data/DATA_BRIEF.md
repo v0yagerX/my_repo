@@ -367,4 +367,3 @@ IWM/SPY: last 0.3526; vs50d -6.6%; vs200d -7.9%; 20d chg -6.4%; since Oct6 -2.4%
 - ^SOX: recent closing high 13217.82 (2026-10-06), intraday 13349.96 (2026-10-06); last close 11684.38 = -11.6% from closing high, -12.5% from intraday high
 - NVDA: recent closing high 239.24 (2026-10-06), intraday 243.37 (2026-10-06); last close 221.30 = -7.5% from closing high, -9.1% from intraday high
 - Overnight (IBKR ~10:30pm ET Oct 14): NVDA 218.50 = -8.7% vs 239.24 close high / -10.2% vs 243.37 intraday high; SOXX 511.24 = -13.3% vs 589.51 Oct closing high; QQQ 721.61 = -5.0% vs 759.66.
-- User's journal reference levels (NVDA margin account): avg rebuy 232.10 (1,498 sh), IBKR-reported liquidation level ~$171 (-22.6% from 221.30). TFSA position separate.

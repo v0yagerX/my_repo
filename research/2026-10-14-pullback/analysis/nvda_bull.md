@@ -107,10 +107,7 @@
 | 202.69 / 200.85 | −8.4 / −9.2 | 200-day; YTD anchored VWAP. The bear's zone |
 | 190.01 | −14.1 / −12.9 | Jul 29 low; trend-change line |
 
-**Liquidation reference (~$171):**
-- 18.7% below the 210.4 floor of my zone, and 20.3–21.3% below the 214.5–217.2 core.
-- 22.7% below the 221.30 close, and 21.6% below the 218.20 overnight print.
-
+[personal position detail redacted]
 ## 4. Base rates: for and against
 
 **Supporting:** items 1 and 3 above, plus the SOXX analog (n=17): 40-day median +10.4%, positive 86% of the time [DB].

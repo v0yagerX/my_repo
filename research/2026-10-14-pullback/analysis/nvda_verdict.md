@@ -17,11 +17,11 @@
 
 ## Bottom line
 
-| Scenario (lowest NVDA **daily close**, Oct 15 – Fri Dec 4\*) | Boundary | Prob. | Bottoming zone | Drawdown from 239.24 close / 243.37 intraday | Low most likely forms | Zone vs the ~$171 margin level (reference only) |
-|---|---|---|---|---|---|---|
-| **Shallow pullback** | Low ≥ **210.00** | **33%** | 211–218.9 (core 214.5–217.2) | −8.5% to −11.8% / −10.1% to −13.3% | Oct 15–23; Oct 29 at the latest | 171 is 19.0–21.9% below |
-| **Deeper correction** | 190.01 ≤ low < 210.00 | **47%** | 198–209 (core 201–207) | −12.6% to −17.2% / −14.1% to −18.6% | Oct 26 – Nov 13 (mode Oct 28 – Nov 6). Second window: earnings week | 171 is 13.6–18.2% below |
-| **Trend break** | Low < **190.01** (Jul 29 closing low) | **20%** | 175–189 (core 179–188); tail 165–172 | −21.0% to −26.9% (tail about −31%) / −22.3% to −28.1% | Nov 10 – Dec 4, often after the print. The low may fall after the window | 171 is 2.3–9.5% below; **the tail reaches 171** |
+| Scenario (lowest NVDA **daily close**, Oct 15 – Fri Dec 4\*) | Boundary | Prob. | Bottoming zone | Drawdown from 239.24 close / 243.37 intraday | Low most likely forms |
+|---|---|---|---|---|---|
+| **Shallow pullback** | Low ≥ **210.00** | **33%** | 211–218.9 (core 214.5–217.2) | −8.5% to −11.8% / −10.1% to −13.3% | Oct 15–23; Oct 29 at the latest |
+| **Deeper correction** | 190.01 ≤ low < 210.00 | **47%** | 198–209 (core 201–207) | −12.6% to −17.2% / −14.1% to −18.6% | Oct 26 – Nov 13 (mode Oct 28 – Nov 6). Second window: earnings week |
+| **Trend break** | Low < **190.01** (Jul 29 closing low) | **20%** | 175–189 (core 179–188); tail 165–172 | −21.0% to −26.9% (tail about −31%) / −22.3% to −28.1% | Nov 10 – Dec 4, often after the print. The low may fall after the window |
 
 \*NVDA's earnings date is **not announced**. The realistic window is Nov 18–25 [FX]. If it reports Nov 25, read the window as running to about Dec 9.
 
@@ -296,7 +296,6 @@ Buckets: low ≥ −12.2% (210) / −12.2% to −20.6% / below −20.6% (190.01)
 | 195.04 | Support | −11.9 / −10.7 | Jul 30 close |
 | **190.01** | **Trend line** | **−14.1 / −13.0** | Jul 29 closing low; Jun 29 low 189.80; Apr 14 gap |
 | 178.2–184.3 | Support | −19.4 to −16.7 / −18.3 to −15.6 | Apr 10 and Apr 8 gaps; anchored VWAP from Apr 2025 |
-| 171 | Reference | −22.7 / −21.7 | The user's IBKR liquidation level (reference only) |
 
 ## 9. Catalysts, what tells the scenarios apart, and what would change the verdict
 

@@ -251,6 +251,6 @@ The claim "it was just an accounting difference, so the drop is unjustified" is 
 3. **FOMC, Oct 27–28.** A hike plus hawkish guidance would hurt debt-funded AI the most.
 4. **OpenAI financing.** If the reported $30B+ round at ~$1.4T closes, the "can they pay" worry eases. A delay, downsizing or down-round would confirm it. Also watch for any on-record OpenAI revenue disclosure.
 5. **Hyperscaler Q3 capex guidance (late October; exact dates UNVERIFIED here)** and NVDA's November earnings (date UNVERIFIED here).
-6. **Price and volume.** Watch whether NVDA holds and reclaims 223 (the 50-day) and then the 229–232 zone (the Oct 8–9 closes and the Oct 8 overnight rebuy area) on rising volume. The alternative is a break of ~214 (the 100-day). For the sector, watch whether the SOX losing streak ends with a high-volume reversal day.
+6. **Price and volume.** Watch whether NVDA holds and reclaims 223 (the 50-day) and then the 229–232 zone (the Oct 8–9 closes and the Oct 8 overnight ~232 area) on rising volume. The alternative is a break of ~214 (the 100-day). For the sector, watch whether the SOX losing streak ends with a high-volume reversal day.
 
 **Bottom line for the user's framing:** "It was just an accounting difference" is a true statement about *which number is right*. It is not evidence that the *price* is wrong. The market has accepted the correct number (~$50B net) and is now pricing the funding risk that number implies, in a rising-rate, energy-inflation setting. Treat the Oct 8 headline as the spark, not the fuel.

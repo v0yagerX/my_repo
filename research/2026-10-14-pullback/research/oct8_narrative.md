@@ -148,7 +148,7 @@ Prepared Oct 14, 2026, evening ET. Price data comes from local Yahoo daily CSVs 
   - The FT said this accounted for the discrepancy, and CNBC confirmed the ~$68bn included partners' gross revenue.
   - OpenAI declined to comment to Bloomberg. Reaching $70bn implies about 40% growth in one quarter (Implicator).
 - **Price reaction:**
-  - NVDA traded around $232 in the overnight session. The user's journal shows a 10:01 pm ET fill at $232.10, 13 minutes after the headline crossed.
+  - NVDA traded around $232 in the overnight session. The ≥$70bn headline crossed about 9:48 pm ET; NVDA traded near $232 within minutes.
   - Premarket Oct 9: $234.30 (+1.7%) per InvestingCube (Oct 9, 2026, 14:34 BST): https://www.investingcube.com/shares/nvidia-stock-price-jumps-in-premarket-as-openai-revenue-update-sparks-ai-chip-rebound/
   - The IBKR premarket high was $234.82.
 
@@ -285,8 +285,8 @@ Prepared Oct 14, 2026, evening ET. Price data comes from local Yahoo daily CSVs 
 | Item | Value |
 |---|---|
 | NVDA all-time-high intraday / close | 243.37 / 239.24 (Oct 6) |
-| NVDA Oct 14 close | 221.30: −9.07% from the intraday high, −7.50% from the high close, −4.65% vs the $232.10 rebuy |
-| NVDA overnight (IBKR, 10:38 pm ET) | 218.23 (low 217.56): −10.3% from the intraday high, −6.0% vs the rebuy |
+| NVDA Oct 14 close | 221.30: −9.07% from the intraday high, −7.50% from the high close |
+| NVDA overnight (IBKR, 10:38 pm ET) | 218.23 (low 217.56): −10.3% from the intraday high |
 | Oct 8 NVDA move attributable to the FT story | about −2.15% (235.54 at 12:30 pm → 230.48 close); pre-story about −0.8% |
 | Oct 8 S&P 500 members up / median | 67.4% / +0.84% |
 | Oct 14 S&P 500 members up / median | 47.9% / −0.09% |

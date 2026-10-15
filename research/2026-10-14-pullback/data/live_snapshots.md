@@ -4,4 +4,4 @@
 - SOXX (12658194, REALTIME overnight): 511.24, -8.18 (-1.57%) vs 519.42 close.
 - ES Dec-26 future (515416632@CME, DELAYED): 7744.5, -25.75 (-0.33%) vs prior settle. (ES carries a fair-value premium to cash SPX of roughly +30–40 pts with ~2 months to expiry; 7744.5 ≈ SPX ~7705–7715 cash-equivalent, i.e. roughly -0.1% to -0.2% vs 7718.94 close — UNVERIFIED fair value estimate.)
 - Interpretation: overnight selling concentrated in tech/semis (QQQ -1.0%, SOXX -1.6%, NVDA -1.3%) while S&P futures were only modestly lower.
-- User's journal figure "$218.46 as of Oct 14" = the overnight print, not the RTH close ($221.30).
+- The "$218.46 as of Oct 14" figure quoted in the request = the overnight print, not the RTH close ($221.30).

@@ -128,14 +128,7 @@
 
 **My odds:** about 55% that NVDA closes at or below 209 before it closes at or above 235.74; about 30% that it closes below 200; about 15% below 190.
 
-## Liquidation reference (reference figure only; not advice)
-
-| Scenario low | Distance to ~$171 (the IBKR level in the user's journal) |
-|---|---|
-| Zone top 209 / centre 205 / bottom 200 | −18.2% / −16.6% / −14.5% |
-| Trend change 192 / 186 | −10.9% / −8.1% |
-| Tail: the 2024-style −27% (≈174.6) | −2.1% |
-
+[personal position detail redacted]
 ## UNVERIFIED or caveated
 
 - **Single-source:** the 35% Oct 28 hike odds, hedge-fund positioning, SOXL flows and the OpenAI round terms.
