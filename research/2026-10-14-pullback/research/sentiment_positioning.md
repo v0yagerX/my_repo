@@ -164,7 +164,7 @@ All paths are under `/tmp/claude-0/-home-user-my-repo/6b8e50df-060f-5f24-bce7-cc
 | SPX Oct 28 → Nov 20 2025 | −5.1% | 26.42 | 1.026 | 128.6 | 26.42 |
 | SPX/SOX/NVDA low Mar 30 2026 | SPX −9.1%, SOX −15.6%, NVDA −20.2% | 30.61 | 1.051 | 127.8 | 31.05 |
 | SOX Jun 22 → Jul 29 2026 | SOX −28.6%, NDX −11.3%, NVDA −19.4% | 20.66 | 0.961 | 109.5 | 22.22 |
-| Minor SPX low Sep 16 2026 | SPX −3.7% | 17.71 | 0.898 | 95.4 | — |
+| Minor SPX low Sep 16 2026 | SPX −3.2% | 17.71 | 0.898 | 95.4 | — |
 | **Now (Oct 14 2026)** | SPX −1.3%, SOX −20.2%, NVDA −7.5% (close basis) | **16.87** | **0.898** | **94.45** | — |
 
 The July 2026 thresholds sit at the 84th (VIX 20.66), 88th (ratio 0.96) and 83rd (VVIX 109.5) percentiles of the past year.
@@ -472,11 +472,11 @@ Dec 18 expiry:
 | CNN P/C 5-day | 0.770 | 0.799 | 0.837 | 0.903 | 0.993 | 0.857 / 0.923 |
 | CBOE equity P/C, 10-day average | 0.589 | 0.586 | 0.676 | 0.671 | 0.687 | 0.700 / 0.708 |
 | AAII bears | 39.0% (Oct 7, pre-drop) | 53.3% | 42.1% | n/a | n/a | n/a |
-| SPX drawdown from high | −1.3% | −3.7% | −6.5% (Jul 29) | −9.1% | −18.9% | −8.5% |
+| SPX drawdown from high | −1.3% | −3.2% | −3.9% | −9.1% | −18.9% | −8.5% |
 | SOX drawdown from high | −20.2% | −23.2%* | −28.6% | −15.6% | −39.7% | — |
 | NVDA close | 221.30 | 213.90 | 190.01 | 165.17 | 96.30 | 100.45 / 98.91 |
 
-\*Sep 16 SOX drawdown from the Jun 22 peak: 11,246 / 14,635 − 1. The Jul 29 SPX drawdown is from the Jun high, per the base-rate files; the other cells come from `vol_lows.py`.
+\*Sep 16 SOX drawdown is from the Jun 22 peak. All drawdowns are computed closing drawdowns from the running high (`voldf.pkl`). NDX drawdowns: −4.1% now, −5.6% at Sep 16, −11.3% at Jul 29, −12.1% at Mar 30.
 
 ---
 
