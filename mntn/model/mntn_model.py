@@ -182,7 +182,7 @@ def run(s: Scenario, no_buyback=False, rev_shock=None, margin_shock=None):
 # ---------------------------------------------------------------------------------------------
 BASE = Scenario(
     name="Base", prob=0.55,
-    label="At Risk / Neutral: growth fades to ~10% by 2030; modest take-rate give-back; margins short of the 35-40% target",
+    label="At Risk / Neutral: growth fades to ~10% by 2030; cost-side proxy for a modest take-rate give-back; margins short of the 35-40% target",
     cust_g=dict(small=[0.42, 0.24, 0.17, 0.13, 0.10], mid=[0.16, 0.13, 0.105, 0.09, 0.075], upper=[0.25, 0.20, 0.16, 0.13, 0.11]),
     arpc_g=dict(small=[-0.05, -0.035, -0.03, -0.01, 0.00], mid=[0.045, 0.035, 0.02, 0.02, 0.015], upper=[0.04, 0.04, 0.035, 0.03, 0.03]),
     creative_other=[3.3, 1.8, 1.8, 1.8, 1.8], qf_ai=[0.0, 0.5, 1.0, 2.0, 3.0],
@@ -323,7 +323,7 @@ TABLE_ROWS = [
     ("  y/y growth", "growth", "pct", "28.6% (36.0% ex-ME)"),
     ("  Small business, incl. Express ($M)", "small_rev", "m", "~39.5"),
     ("  Mid-sized ($M)", "mid_rev", "m", "~219.8"),
-    ("  Larger / non-SMB, incl. Premium ($M)", "upper_rev", "m", "~22.6"),
+    ("  Larger / upper mid-market (~Premium tier) ($M)", "upper_rev", "m", "~22.6"),
     ("  Creative services + QuickFrame AI ($M)", "_creative", "m", "~2.8 (+5.4 Max. Effort)"),
     ("TTM active PTV customers, year-end", "customers", "int", "3,632"),
     ("  small / mid-sized / larger (count)", "_counts", "str", "~2,600 / ~970 / ~62"),

@@ -9,7 +9,7 @@ FY25 GAAP net loss includes $43.5M of IPO-related fair-value/extinguishment char
 |   y/y growth | 28.6% (36.0% ex-ME) | 19.9% | 3.2% | -0.5% | 2.1% | 3.5% |
 |   Small business, incl. Express ($M) | ~39.5 | 51.3 | 50.1 | 45.7 | 44.3 | 44.3 |
 |   Mid-sized ($M) | ~219.8 | 265.4 | 278.5 | 281.1 | 289.5 | 300.9 |
-|   Larger / non-SMB, incl. Premium ($M) | ~22.6 | 27.9 | 29.0 | 29.3 | 30.2 | 31.4 |
+|   Larger / upper mid-market (~Premium tier) ($M) | ~22.6 | 27.9 | 29.0 | 29.3 | 30.2 | 31.4 |
 |   Creative services + QuickFrame AI ($M) | ~2.8 (+5.4 Max. Effort) | 3.3 | 1.5 | 1.2 | 1.0 | 1.0 |
 | TTM active PTV customers, year-end | 3,632 | 4,778 | 4,992 | 4,881 | 4,933 | 5,072 |
 |   small / mid-sized / larger (count) | ~2,600 / ~970 / ~62 | 3,588 / 1,116 / 74 | 3,732 / 1,182 / 78 | 3,582 / 1,218 / 80 | 3,582 / 1,267 / 84 | 3,654 / 1,330 / 88 |
@@ -39,7 +39,7 @@ FY25 GAAP net loss includes $43.5M of IPO-related fair-value/extinguishment char
 
 Valuation at end-2027 on FY28E (PV today at 11%): 4.0x EV/EBITDA $7.55; 0.8x EV/Sales $7.27; 8x adj. P/E $5.51; blend $6.77 (PV $5.97). 2030 exit at 4.0x FY31E EBITDA $9.37 (PV $6.04). DCF $6.49. 2030 GAAP EPS with no buybacks: $0.38.
 
-### Base case (55%): At Risk / Neutral: growth fades to ~10% by 2030; modest take-rate give-back; margins short of the 35-40% target
+### Base case (55%): At Risk / Neutral: growth fades to ~10% by 2030; cost-side proxy for a modest take-rate give-back; margins short of the 35-40% target
 
 | | FY2025A | FY2026E | FY2027E | FY2028E | FY2029E | FY2030E |
 |---|---|---|---|---|---|---|
@@ -47,7 +47,7 @@ Valuation at end-2027 on FY28E (PV today at 11%): 4.0x EV/EBITDA $7.55; 0.8x EV/
 |   y/y growth | 28.6% (36.0% ex-ME) | 21.5% | 17.6% | 13.5% | 11.9% | 9.9% |
 |   Small business, incl. Express ($M) | ~39.5 | 53.3 | 63.8 | 72.4 | 81.0 | 89.1 |
 |   Mid-sized ($M) | ~219.8 | 266.4 | 311.6 | 351.2 | 390.5 | 426.1 |
-|   Larger / non-SMB, incl. Premium ($M) | ~22.6 | 29.4 | 36.7 | 44.0 | 51.2 | 58.6 |
+|   Larger / upper mid-market (~Premium tier) ($M) | ~22.6 | 29.4 | 36.7 | 44.0 | 51.2 | 58.6 |
 |   Creative services + QuickFrame AI ($M) | ~2.8 (+5.4 Max. Effort) | 3.3 | 2.3 | 2.8 | 3.8 | 4.8 |
 | TTM active PTV customers, year-end | 3,632 | 4,895 | 5,943 | 6,869 | 7,706 | 8,440 |
 |   small / mid-sized / larger (count) | ~2,600 / ~970 / ~62 | 3,692 / 1,125 / 78 | 4,578 / 1,271 / 93 | 5,356 / 1,405 / 108 | 6,053 / 1,531 / 122 | 6,658 / 1,646 / 135 |
@@ -85,7 +85,7 @@ Valuation at end-2027 on FY28E (PV today at 11%): 6.5x EV/EBITDA $15.53; 1.9x EV
 |   y/y growth | 28.6% (36.0% ex-ME) | 21.9% | 24.0% | 24.2% | 23.2% | 20.4% |
 |   Small business, incl. Express ($M) | ~39.5 | 54.4 | 71.7 | 91.9 | 114.4 | 137.7 |
 |   Mid-sized ($M) | ~219.8 | 266.3 | 322.8 | 391.3 | 472.3 | 560.0 |
-|   Larger / non-SMB, incl. Premium ($M) | ~22.6 | 29.7 | 40.2 | 53.8 | 70.6 | 90.6 |
+|   Larger / upper mid-market (~Premium tier) ($M) | ~22.6 | 29.7 | 40.2 | 53.8 | 70.6 | 90.6 |
 |   Creative services + QuickFrame AI ($M) | ~2.8 (+5.4 Max. Effort) | 3.3 | 4.0 | 8.0 | 14.0 | 20.0 |
 | TTM active PTV customers, year-end | 3,632 | 4,978 | 6,424 | 8,013 | 9,680 | 11,357 |
 |   small / mid-sized / larger (count) | ~2,600 / ~970 / ~62 | 3,770 / 1,130 / 78 | 5,014 / 1,311 / 99 | 6,368 / 1,521 / 125 | 7,769 / 1,756 / 155 | 9,167 / 2,002 / 188 |

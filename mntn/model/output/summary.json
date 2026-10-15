@@ -16,7 +16,7 @@
   },
   "Base": {
    "prob": 0.55,
-   "label": "At Risk / Neutral: growth fades to ~10% by 2030; modest take-rate give-back; margins short of the 35-40% target",
+   "label": "At Risk / Neutral: growth fades to ~10% by 2030; cost-side proxy for a modest take-rate give-back; margins short of the 35-40% target",
    "dcf": 14.854717209683788,
    "ev_ebitda": 15.527595471385746,
    "ev_sales": 15.217557683603973,
