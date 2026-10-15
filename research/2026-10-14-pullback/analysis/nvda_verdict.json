@@ -1,0 +1,193 @@
+{
+ "layer": "NVDA (layer 4 of 4: market -> tech -> semis -> NVDA)",
+ "current_state": "NVDA closed Oct 14 at 221.30, -7.50% from the Oct 6 record close 239.24 and -9.07% from the 243.37 intraday record (DB). IBKR overnight 218.96 at 04:24 UTC Oct 15 (earlier 217.94-218.50), i.e. about -8.5% to -8.7% from the close high. First close below the 50d (223.21) since Sep 15; above the 100d (214.45, +3.2%) and the rising 200d (202.69, +9.2%). RSI 43.9; ATR 5.83 (2.63%). The breakout above the May closing high 235.74 (closes Oct 5-7) reversed on Oct 8 (230.48). NVDA has retraced 36.4% of the Jul 29 -> Oct 6 rally (SOXX 56%). NVDA/SOXX 0.4261 (+33.7% since Jun 22, +5.0% since Oct 6) = relative-strength holdout. Oct 14 volume 1.01x 50d; IV 33.2% (15th pct). Overnight price is sitting on the 3m volume POC 218.85, just above the Sep 17 gap 216.76-217.15.",
+ "key_levels": [
+  {
+   "name": "Record intraday / record close",
+   "level_low": 239.24,
+   "level_high": 243.37,
+   "kind": "resistance",
+   "distance_pct_from_oct14_close": 9.04,
+   "reasoning": "Oct 6 ATH; +8.1%/+10.0% from 221.30. Reclaim = trend resumption."
+  },
+  {
+   "name": "May closing high / failed-breakout level",
+   "level_low": 235.74,
+   "level_high": 235.74,
+   "kind": "resistance",
+   "distance_pct_from_oct14_close": 6.53,
+   "reasoning": "Breakout above it reversed within 3 sessions; a close back above voids the bear case."
+  },
+  {
+   "name": "Oct 8 pivot + Oct 6 AVWAP",
+   "level_low": 229.85,
+   "level_high": 230.98,
+   "kind": "resistance",
+   "distance_pct_from_oct14_close": 4.12,
+   "reasoning": "Oct 8 low 229.85 / close 230.48 where the OpenAI-revenue narrative broke; AVWAP from the high 230.98. Reclaim before Oct 28 = low likely in."
+  },
+  {
+   "name": "Oct 12 unfilled gap",
+   "level_low": 228.86,
+   "level_high": 229.11,
+   "kind": "resistance",
+   "distance_pct_from_oct14_close": 3.47,
+   "reasoning": "Unfilled down gap."
+  },
+  {
+   "name": "50d / 38.2% Fib / EMA50",
+   "level_low": 222.6,
+   "level_high": 223.21,
+   "kind": "resistance",
+   "distance_pct_from_oct14_close": 0.73,
+   "reasoning": "Lost Oct 14; first repair close (+0.6% to +0.9%)."
+  },
+  {
+   "name": "Jul-low AVWAP / Oct 16 220 pin",
+   "level_low": 220.0,
+   "level_high": 221.01,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -0.36,
+   "reasoning": "AVWAP from Jul 29 low 221.01; largest Oct 16 OI strike 220 (99.2k C / 64.6k P) -> pin into Friday, released after."
+  },
+  {
+   "name": "3m POC / Sep 17 gap / 50% Fib",
+   "level_low": 216.69,
+   "level_high": 218.85,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -1.6,
+   "reasoning": "3m volume POC 218.85 (11.8% of vol); unfilled gap 216.76-217.15; 50% Fib 216.69. Overnight trade sits on it (-1.1% to -2.1%)."
+  },
+  {
+   "name": "100d / 50% Fib on closes",
+   "level_low": 214.45,
+   "level_high": 214.63,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -3.05,
+   "reasoning": "Shallow-scenario core floor (-3.1%)."
+  },
+  {
+   "name": "HINGE: Mar-30 AVWAP / 61.8% Fib / Sep 14 close / 6m POC",
+   "level_low": 210.21,
+   "level_high": 211.02,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -4.83,
+   "reasoning": "Four-level confluence plus Nov 20 max pain ~210 and the bull's own invalidation; shallow vs deeper boundary at a 210.00 close (-4.7% to -5.0%; -3.4% to -3.7% from 218.35)."
+  },
+  {
+   "name": "Aug-Sep closing low / Aug 24 & Sep 14 lows",
+   "level_low": 206.64,
+   "level_high": 208.93,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -6.11,
+   "reasoning": "Higher-low structure since July (-5.6% to -6.6%)."
+  },
+  {
+   "name": "200d / YTD AVWAP / 78.6% Fib / 200 put shelf",
+   "level_low": 200.55,
+   "level_high": 202.69,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -8.89,
+   "reasoning": "200d rising to ~204 by Oct 28 and ~205 by Nov 18 (flat-path calc); YTD AVWAP 200.85; 78.6% Fib 201.43 (200.55 closes); largest Nov/Dec put OI at 200. Two closes below = trend-break warning (-8.4% to -9.4%)."
+  },
+  {
+   "name": "Jul 30 close",
+   "level_low": 195.04,
+   "level_high": 195.04,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -11.87,
+   "reasoning": "Post-low reaction close (-11.9%)."
+  },
+  {
+   "name": "TREND LINE: Jul 29 closing low",
+   "level_low": 189.66,
+   "level_high": 190.01,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -14.22,
+   "reasoning": "Jul 29 close/low 190.01, Jun 29 low 189.80, Apr 14 gap 189.66-190.77. Deeper vs trend-break boundary (-14.1%)."
+  },
+  {
+   "name": "Apr 2026 gaps / Apr-2025 AVWAP",
+   "level_low": 178.23,
+   "level_high": 184.3,
+   "kind": "support",
+   "distance_pct_from_oct14_close": -18.09,
+   "reasoning": "Apr 10 gap 184.08-184.30; Apr 8 gap 178.23-180.30; AVWAP from Apr 8 2025 178.37 (-16.7% to -19.5%)."
+  }
+ ],
+ "internals_summary": "Relative strength: NVDA/SOXX 0.4261, +33.7% since Jun 22 and +5.0% since Oct 6, above its 50d but 5.5% below its 200d; its 1y high was 0.6738 (Nov 20 2025), so the holdout rally started from a deeply depressed ratio (NVDA YTD +18.7% vs SOXX +72.5%). NVDA/QQQ -3.6% since Oct 6, below 50d. Betas (DB/calc): 1y vs QQQ 1.30 (corr 0.68), down-day ratio 1.41; vs SOXX 0.48 (corr 0.59), avg ratio 0.57 on SOXX<-2% days, down/up beta 0.56/0.30; BUT the 5y median ratio on SOXX<-3% days is 1.01 (n=113) vs 0.60 (n=34) in the last year -> low beta is a regime, not a constant. Current leg ratios: 0.63 vs SOXX, 1.86 vs QQQ. Volume: 1.01x 50d on Oct 14, but NVDA's last three lows printed on 0.96-1.05x (Mar 30, Jul 29, Sep 14), so volume capitulation is not a usable NVDA bottom signal. Options (SP): IV 33.2% (15th pct), 25d RR -3.8 vols, earnings event ~+/-5.8-5.9%, Nov 20 straddle +/-9.8% (199.7-242.9), Nov max pain ~210, 200 put shelf (Nov 53.2k, Dec 64.5k); risk-neutral P(Nov 20 close<210/200/190) = 35/23/15%. Index vol: VIX 16.87, VIX/VIX3M 0.898 (no capitulation). Rates/credit: 10y 5.19-5.21%, real ~2.9% (2008 high); Oct 28 hike odds 24-32% late Oct 14 (corrected from 35%); HY OAS 3.16% (91st pct), CCC 3y high; CoreWeave 2032s below 78c overnight (Reuters). Credit channel is on NVDA's own balance sheet: guarantees capped $105bn ($108.5bn gross) for OpenAI-affiliate capacity from 2028, $279bn supply commitments, AI labs ~1/4 of next year's business. Semis breadth 14% above 50d; Asia memory rout overnight (SK Hynix -11.4%, SoftBank -9.4%). Positioning: long semis most crowded (BofA, confirmed), discretionary HF net 2nd pct (single-source), NVDL flows churning.",
+ "upper_layer_conditioning": "TECH is the binding constraint (audited 37/38/25; hinge QQQ 697, trend line 661.73): NVDA 1y beta to QQQ 1.30 (corr 0.68), down-day ratio 1.41 -> QQQ 697 ~ NVDA 207.6 and QQQ 661.73 ~ NVDA 192.5, so tech's buckets map almost 1:1 onto NVDA's 210/190.01 boundaries; NVDA cannot decouple from QQQ; mapped result ~31/50/20. SEMIS (audited 26/37/37, deeper and trend break co-modal; hinge SOXX 497.40, trend 465) is a weak constraint at the 1y ratio 0.57: SOXX 497.40 ~ NVDA 216.0, SOXX 465 ~ 208.1, SOXX 435-455 ~ 200.8-205.7; this is where NVDA can decouple (Jun 22-Jul 29: NVDA -8.9% vs SOXX -29.0%), mapped ~42/46/12 - but at the 5y ratio of 1.0 (catch-down) SOXX 465 ~ 198 and 435-455 ~ 185-194. MARKET (audited 46/34/20; hinge S&P 7,505): sets the trend-break tail - an S&P trend break (<7,314) implies QQQ <~660 -> NVDA <~192; a shallow market does not protect NVDA (May 14-Jul 29 2026: NVDA -19.4% while S&P worst close -4.5%); mapped ~32/48/20. Timing per MV: in a market trend break the high-beta low comes after NVDA's print.",
+ "scenarios": [
+  {
+   "name": "shallow pullback",
+   "definition": "Lowest NVDA daily close from Oct 15 through Fri Dec 4 (to ~Dec 9 if the print is Nov 25) stays >= 210.00 (holds the 210.2-211.0 Mar-30 AVWAP / 61.8% Fib / Sep 14 close / 6m POC cluster).",
+   "probability_pct": 33,
+   "bottom_zone_low": 211.0,
+   "bottom_zone_high": 218.9,
+   "bottom_zone_drawdown_from_high_pct": "-8.5% to -11.8% from the 239.24 close high (core 214.5-217.2: -9.2% to -10.3%); -10.1% to -13.3% from 243.37 intraday; -1.1% to -4.7% from 221.30.0-21.9% below this zone.",
+   "timeframe": "Oct 15-23 (TSMC Oct 15, opex Oct 16, META/LRCX/VIX expiry Oct 21); Oct 29 at the latest",
+   "path": "TSMC beat holds green through Oct 16 opex; NVDA holds 214.45; META capex accepted Oct 21; close >223.21 by Oct 23; Oct 28 FOMC hold + MSFT/GOOGL capex up with their stocks up; close >230.48 before the print; retest 235.74-239.24 into the print.",
+   "confirming_signals": "Closes >=214.45 through Oct 21; close >223.21 by Oct 23; NVDA/SOXX not down >5% in a week; SOXX holds 497.40 and QQQ holds 697; VIX/VIX3M <0.95; HY OAS <=3.25%.",
+   "invalidation": "Any close <210.00; a TSMC beat with NVDA still closing <214.45 on Oct 15-16; SOXX <497.40 AND QQQ <697 on a closing basis before Oct 23."
+  },
+  {
+   "name": "deeper correction",
+   "definition": "Lowest NVDA daily close in the window is >= 190.01 and < 210.00 (breaks the 210 hinge but holds the Jul 29 closing low).",
+   "probability_pct": 47,
+   "bottom_zone_low": 198.0,
+   "bottom_zone_high": 209.0,
+   "bottom_zone_drawdown_from_high_pct": "-12.6% to -17.2% from 239.24 (core 201-207: -13.5% to -16.0%); -14.1% to -18.6% from 243.37; -5.6% to -10.5% from 221.30.6-18.2% below this zone.",
+   "timeframe": "Oct 26 - Nov 13, mode Oct 28 - Nov 6 (FOMC + MSFT/GOOGL Oct 28, AMZN est./INTC/PCE Oct 29, AMD Nov 3, payrolls Nov 6, CPI + CoreWeave est. ~Nov 10); secondary window NVDA print week (Nov 17-27)",
+   "path": "214.45 then 210 break between Oct 16-28 as SOXX loses 497.40 and QQQ tests 680-700; the Oct 28 cluster punishes capex and/or keeps the Fed hawkish; NVDA tags 201-207 (rising 200d ~203-205, YTD AVWAP 200.85, 78.6% Fib, range low 206.64) on a vol spike (VIX/VIX3M >=0.95); recovery to 215-225 into the print.",
+   "confirming_signals": "Close <210 with SOXX <497.40; NVDA down-day ratio to SOXX >0.8 for 3+ sessions; HY OAS 3.3-3.46% but not above; SOXX holds 465 or capitulation-reverses above it; reversal day near the 200d closing in the upper half of its range.",
+   "invalidation": "Upside: every close >=210 through Oct 30 plus a close >230.48. Downside: any close <190.01; two closes <200.85 before Oct 28 would signal acceleration toward a trend break."
+  },
+  {
+   "name": "trend break",
+   "definition": "Lowest NVDA daily close in the window is < 190.01 (new lower low below the Jul 29 closing low, consistent with the upper layers' Jul-29-low trend lines).",
+   "probability_pct": 20,
+   "bottom_zone_low": 175.0,
+   "bottom_zone_high": 189.0,
+   "bottom_zone_drawdown_from_high_pct": "-21.0% to -26.9% from 239.24 (core 179-188: -21.4% to -25.2%; tail 165-172 = -28% to -31%); -22.3% to -28.1% from 243.37; -14.6% to -20.9% from 221.30.3-9.5% below this zone and the tail reaches it.",
+   "timeframe": "Nov 10 - Dec 4, often after the print; real risk the low comes after the window (Dec 9 FOMC; 2018 low was Dec 24)",
+   "path": "Oct 28 hike with a signalled follow-up, or 10y >5.31%, or hyperscaler capex punished; QQQ <661.73 and SOXX <465 with NVDA catching down at a ~1.0 ratio; AI-credit event (CoreWeave ~Nov 10 funding stress, OpenAI financing delay, or a new NVDA credit-support commitment) puts the $105bn guarantee in focus; the print fails (7 of last 9 prints lower 5 sessions later).",
+   "confirming_signals": "Two closes <200.85 then <195; SOXX <465 on >2x volume; QQQ <683.7 before Oct 28; S&P <7,505 with RSP <207.16; HY OAS >3.46%; CoreWeave 2032s <75c; VIX/VIX3M >1 for 3+ sessions.",
+   "invalidation": "Every close through Dec 4 holds 190.01 (a V-flush below 190.01 still counts as a trend break on price)."
+  }
+ ],
+ "distinguishing_evidence": "Oct 15-16: does a TSMC beat close green and hold, and does NVDA hold 214.45 through Oct 16 opex (220 pin)? Oct 21-23: close >223.21 favours shallow; close <210 before Oct 23 makes deeper the base case; close <200.85 before Oct 28 = acceleration toward trend break. Oct 28-29: hyperscaler reaction function - capex up with the spender's stock up (July MSFT/AMZN pattern) vs down (GOOGL/META pattern); FOMC hike or hold. Watch NVDA's down-day ratio to SOXX: staying ~0.6 = holdout intact (caps NVDA near 208 even if SOXX breaks 465); rising toward 1.0 = catch-down (trend-break path). November: credit channel (CoreWeave ~Nov 10, CoreWeave 2032 bond price vs 75c, any new NVDA guarantees, OpenAI round) and the NVDA print (unannounced, Nov 17-25): Q4 guide ~$120bn+, GM trough holds 71-72%, FY28 ~+70% reaffirmed, no new guarantees. Shallow vs deeper is also told apart by whether SOXX holds 497.40 and QQQ holds 697.",
+ "strongest_bull_points": "NVDA is the relative refuge (NVDA/SOXX +33.7% since Jun 22; Jun 22-Jul 29 NVDA -8.9% vs SOXX -29%); at the 1y ratio 0.57 even a SOXX break of 465 maps only to ~208. 5 of 11 three-year record-close episodes that hit -7.5% ended at -7.6% to -9.7% and bottomed within 0-3 sessions (confirmed). Dense 214.5-218.9 shelf (100d, 50% Fib, Sep 17 gap, 3m POC) and 210.2-211.0 cluster below. Holdout signal sets show 42-47% shallow outcomes. NVDA lows have not needed volume capitulation (0.96-1.05x at the last three lows). Fundamentals accelerating (Q3 guide $108bn, FY28 ~+70% supply-constrained, TSMC Q3 revenue +50.9% y/y), ~15x FY28 (MS), $235bn buyback authorization, no downgrades/insider sales. Hike odds fell to 24-32%; market layer modally shallow; midterm Q4 seasonality; DB analog 40d median +6.5% (76% positive).",
+ "strongest_bear_points": "Overnight print (218.35-218.96) already sits only 3.8-4.1% above the 210 hinge; 3y episodes conditioned on the overnight -8.7% are 33/44/22 and 5y 25/50/25; every base rate and the implied-vol random walk (30/44/26 from 218.25) put >=55% below 210. Tech (binding constraint) gives 63% that QQQ closes <697, which maps to NVDA <~208. The low beta to SOXX is a 1-year regime (5y ratio 1.01 on big SOXX down days) - catch-down maps the semis trend break (37% after audit) to NVDA 185-194. Failed breakout above 235.74; semis lower high and 14% breadth. Credit stress runs through NVDA's own balance sheet ($105bn/$108.5bn guarantees, $279bn commitments, AI labs ~1/4 of next year's business; CoreWeave 2032s <78c). No index vol capitulation; crowded semis positioning; NVDA buyback window likely closed (unverified). NVDA print in-window with 7 of last 9 prints lower 5 sessions later; hiking Fed with real yields at 2008 highs; DB analog median 20d/40d MAE ~203.4/199.6.",
+ "verdict_most_likely_bottom_zone": "Deeper correction: lowest close 201-209 (centred 203-207; median lowest close ~205-207), i.e. -5.6% to -9.2% from 221.30 (-4.3% to -7.9% from the ~218.35 overnight print) and -12.6% to -16.0% from the 239.24 record close; most likely formed Oct 28 - Nov 6, with the NVDA print week as a secondary window. Probabilities: shallow 33 / deeper 47 / trend break 20.",
+ "verdict_confidence": "Medium-low (~47% that the lowest close falls in 190.01-210; ~33% that it lands in the narrower 198-209 zone). Why: all independent lenses (episode conditionals, 36-session signal sets, implied-vol walk, top-down mappings) put the mode in the deeper bucket, but samples are small and overlapping (effective n ~6-10), shallow vs deeper hinges on a level only ~4% below the overnight print, holdout outcomes are bimodal, and the NVDA earnings date (unannounced) and TSMC results (pending at write time) can move it.",
+ "single_most_important_level": "NVDA 210 on a closing basis (210.21-211.02 cluster: Mar-30 AVWAP, 61.8% Fib 210.39, Sep 14 close 210.96, 6m POC 211.02; Nov max pain ~210) - separates shallow from deeper and is the bull's own invalidation. Secondary: 190.01 (Jul 29 close, trend line); upside confirmation 230.48.",
+ "single_most_important_event": "Wed Oct 28: FOMC decision 2:00 pm ET (hike odds 24-32% late Oct 14) followed by MSFT and GOOGL capex after the close (hyperscalers = 55% of NVDA's Q2 Data Center revenue). Second: NVDA's own Q3 FY27 print (date unannounced, Nov 17-25). First test: TSMC Q3 (Oct 15).",
+ "what_would_change_verdict": "Toward shallow (>45%): a TSMC green close that holds plus an NVDA close >223.21 by Oct 23 without losing 214.45, or a close >230.48 before Oct 28; MSFT/GOOGL capex up with their stocks up. Toward trend break (>30%): a close <200.85 before Oct 28; NVDA/SOXX down >5% in a week while SOXX <497.40 (catch-down); HY OAS >3.46% or CoreWeave 2032s <75c; Oct 28 hike with hawkish guidance; a new NVDA credit-support commitment; QQQ <683.7 before Oct 28. TSMC rules: Q4 guide up q/q, GM >=~65%, capex >=$60-64bn and NVDA close >=216.7 holding through Oct 16 -> shallow up to ~40%; flat/down guide, 'digestion' language, or a faded beat with NVDA <214.45 -> deeper/trend up.",
+ "sources": [
+  "data/DATA_BRIEF.md (Yahoo daily through Oct 14 close, cross-checked vs IBKR) and data/base_rates.json, technicals.json, levels.json, betas_ratios.txt, analog_forward_returns.txt, live_snapshots.md",
+  "dl_nvdabull/NVDA.csv, SOXX.csv, QQQ.csv (Yahoo long histories) via scratchpad/nv_scripts/v1.py, v2.py, v3.py, mc.py (my calculations)",
+  "analysis/market_verdict.md (+audit addendum), tech_verdict.md (+audit addendum), semis_verdict.md (+audit addendum; verify/audit_semis.md), nvda_bull.md, nvda_bear.md",
+  "research/catalysts.md, sentiment_positioning.md, semis_leadership.md, oct8_narrative.md, oct8_skeptic.md, macro_rates.md, zz_verification_corrections.md; analysis/verify/facts.md",
+  "NVDA 8-K Aug 17 2026 (guarantees): https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+  "NVDA 10-Q Aug 26 2026: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+  "NVDA Q2 FY27 call transcript Aug 26 2026: https://s201.q4cdn.com/141608511/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf",
+  "Reuters via Investing.com (Asia chip rout, CoreWeave 2032s <78c), Oct 15 2026: https://www.investing.com/news/stock-market-news/asia-stocks-slump-as-chip-rout-deepens-after-hotter-us-inflation-4950421",
+  "Hike odds 24-32%: Polymarket/Kalshi live APIs, Investing.com Fed Rate Monitor, Reuters/LSEG as compiled in analysis/verify/facts.md (03:45-04:00 UTC Oct 15); FOMC calendar https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "IBKR real-time snapshots 04:24 UTC Oct 15: NVDA 218.96 (4815747), SOXX 512.27 (12658194), QQQ 722.57 (320227571)",
+  "TSMC Q3 status: WebSearch ~04:25 and ~04:32 UTC Oct 15 - not out; TSMC IR https://investor.tsmc.com/quarterly-results"
+ ],
+ "unverified": [
+  "NVDA Q3 FY27 earnings date not announced (third-party calendars list Nov 17, 18 or 25; Wednesday pattern points to Nov 18)",
+  "TSMC Q3 2026 results and Q4 guide: pending at time of writing (not out at ~04:25 and ~04:32 UTC Oct 15; due ~05:30-06:00 UTC)",
+  "Oct 28 hike odds 24-32% vary by venue (single-source per venue)",
+  "NVDA discretionary buyback window closed until the print - inference",
+  "Hedge-fund positioning percentiles (Goldman via Tickmill, Nomura) - single-source",
+  "OpenAI gross-vs-net explanation of $50bn vs $68-70bn - two competing published explanations, not settled",
+  "AMZN (~Oct 29) and CoreWeave (~Nov 10) report dates - estimates",
+  "Options OI from partial chains; risk-neutral probabilities and max pain are approximations",
+  "Conditional mapping tables (P(NVDA bucket | upper-layer bucket)) are analyst judgment",
+  "Monte Carlo is a driftless fat-tailed benchmark at implied vol, not a forecast",
+  "Base-rate samples small and overlapping (effective n ~6-10 episodes); bull's swing-leg (n=21) and holdout (n=15) sets and bear's n=10 holdout set were not re-run exactly",
+  "200d projections assume flat price paths; overnight prints are thin and not closes"
+ ]
+}

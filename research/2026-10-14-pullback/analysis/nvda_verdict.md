@@ -9,7 +9,7 @@
 
 **Source tags**
 - [DB]: DATA_BRIEF.md and the data files.
-- [MV] / [TV] / [SV]: the market, tech and semis verdicts. Market and tech are used as corrected by their audit addenda.
+- [MV] / [TV] / [SV]: the market, tech and semis verdicts, used as corrected by their audit addenda (market 46/34/20; tech 37/38/25; semis 26/37/37).
 - [CAT] / [SP] / [SL] / [O8] / [MR] / [FX]: catalysts.md, sentiment_positioning.md, semis_leadership.md, oct8_narrative.md / oct8_skeptic.md, macro_rates.md, and zz_verification_corrections.md together with verify/facts.md.
 - [calc]: my scripts in `scratchpad/nv_scripts/` (v1–v3.py, mc.py). They run on Yahoo daily data: NVDA from 1999, SOXX from 2001, QQQ from 1999.
 
@@ -23,7 +23,7 @@
 | **Deeper correction** | 190.01 ≤ low < 210.00 | **47%** | 198–209 (core 201–207) | −12.6% to −17.2% / −14.1% to −18.6% | Oct 26 – Nov 13 (mode Oct 28 – Nov 6). Second window: earnings week |
 | **Trend break** | Low < **190.01** (Jul 29 closing low) | **20%** | 175–189 (core 179–188); tail 165–172 | −21.0% to −26.9% (tail about −31%) / −22.3% to −28.1% | Nov 10 – Dec 4, often after the print. The low may fall after the window |
 
-\*NVDA's earnings date is **not announced**. The realistic window is Nov 18–25 [FX]. If it reports Nov 25, read the window as running to about Dec 9.
+\*NVDA's earnings date is **not announced**. Third-party calendars list Nov 17, 18 or 25, and NVDA's Wednesday pattern points to Nov 18 [CAT, FX]. If it reports Nov 25, read the window as running to about Dec 9. The window is 36 sessions by my count (Thanksgiving Nov 26 closed; Nov 27 is a half day).
 
 **Most likely closing-low zone: 201–209, centred on 203–207.**
 - That is −5.6% to −9.2% from 221.30, or −4.3% to −7.9% from overnight.
@@ -63,7 +63,7 @@
 - At that ratio, QQQ's 697 hinge maps to about 207.6 and its 661.73 trend line to about 192.5. Tech's buckets therefore line up almost one-for-one with my 210 / 190.01 boundaries.
 - NVDA cannot decouple from QQQ. Mapping tech's probabilities through my conditional table gives about **31 / 50 / 20**.
 
-**Semis is a weak constraint, but only under the current regime** [SV, 26 / 39 / 35].
+**Semis is a weak constraint, but only under the current regime** [SV, audited 26 / 37 / 37: deeper and trend break co-modal].
 - NVDA's 1-year beta to SOXX is 0.48 (correlation 0.59).
   - On SOXX days below −2%, the average move ratio is 0.57 (n=54). The regression slope through the origin is 0.54, which is the bull's figure; the ordinary least-squares slope is 0.38 [calc].
   - Down-day beta is 0.56 and up-day beta 0.30 [calc].
@@ -94,7 +94,7 @@
 | Bear: "no capitulation, volume 1.01×" | **True, but it is not a valid signal for NVDA.** NVDA's last three lows printed on 1.01× (Mar 30), 0.96× (Jul 29) and 1.05× (Sep 14) volume [calc] |
 | Bear: 200-day at about 204.4 by Oct 28 and 205.3 by Nov 4 | **Approximately confirmed:** 204.2 / 205.1 on a flat path at 218; 203.3 / 203.7 on a flat path at 200 [calc] |
 | Both: 7 of the last 9 prints were lower five sessions later | **Confirmed** [CAT, local CSV] |
-| Both: Oct 28 hike odds about 35%; earnings Nov 17/18 | **Stale / unverified.** Late Oct 14 odds were 24–32%. The earnings date is unannounced (Nov 18–25) [FX] |
+| Both: Oct 28 hike odds about 35%; earnings Nov 17/18 | **Stale / unverified.** Late Oct 14 odds were 24–32%. The earnings date is unannounced (calendars list Nov 17, 18 or 25) [FX] |
 | Bear: $235bn buyback authorization | **Confirmed** [SL, M]. $150bn was added Sep 28. catalysts.md's "$99bn left" predates that addition |
 
 ## 4. NVDA internals
@@ -117,16 +117,9 @@
 - **Implied moves:** the earnings event is about ±5.8–5.9% one standard deviation; the Nov 20 straddle is ±9.8% (199.7–242.9).
 - **Risk-neutral odds of a Nov 20 close:** below 210, 35%; below 200, 23%; below 190, 15%.
 
-**Positioning and fundamentals**
-- **Positioning:**
-  - NVDL flows are churning rather than liquidating.
-  - Discretionary hedge-fund net exposure is at the 2nd percentile (SINGLE-SOURCE).
-  - Long semis is the most crowded trade (CONFIRMED).
-  - NVDA's discretionary buyback window is likely closed until the print (UNVERIFIED inference).
-- **Fundamentals** [CAT, primary]:
-  - Q3 guide $108bn ±2%; Q4 gross-margin trough 71–72%; FY28 about +70%, "supply-constrained".
-  - About 15x FY28 earnings (Morgan Stanley, [M]).
-  - No NVDA-specific downgrades, and no insider selling [O8].
+**Positioning [SP]:** NVDL flows are churning, not liquidating. Discretionary hedge-fund net exposure is at the 2nd percentile (SINGLE-SOURCE). Long semis is the most crowded trade (CONFIRMED). The buyback window is likely closed until the print (UNVERIFIED inference).
+
+**Fundamentals [CAT, primary]:** Q3 guide $108bn ±2%; Q4 gross-margin trough 71–72%; FY28 about +70%, "supply-constrained"; about 15x FY28 earnings (Morgan Stanley). No NVDA downgrades or insider selling [O8].
 
 ## 5. Calibration: base rate first, then regime
 
@@ -150,21 +143,8 @@ Buckets: low ≥ −12.2% (210) / −12.2% to −20.6% / below −20.6% (190.01)
 **The base rates and mappings average about 35 / 46 / 19.** Every independent lens puts the mode in the deeper bucket. Holdout sets are *bimodal*: they show more shallow outcomes **and** more trend breaks than the general set, so the holdout status widens both tails rather than pointing one way. The samples are small and overlapping (effective n is about 6–10 episodes).
 
 **Regime adjustments**
-- **Bearish:**
-  - The Fed is hiking, with 10-year real yields at their highest since 2008.
-  - AI-credit stress hits NVDA's own guarantees.
-  - The Asian memory rout overnight.
-  - The index shows no volatility capitulation (VIX/VIX3M 0.898).
-  - The earnings print falls inside the window, and the post-print record is poor.
-  - The low-beta regime could end.
-  - The buyback window is probably shut.
-- **Bullish:**
-  - Hike odds have fallen to 24–32%.
-  - Fundamentals are accelerating, and the valuation is about 15x FY28.
-  - NVDA's lows do not need volume capitulation.
-  - The market is modally shallow.
-  - Midterm seasonality.
-  - Discretionary positioning is light.
+- **Bearish:** a hiking Fed with real yields at 2008 highs; AI-credit stress that reaches NVDA's own guarantees; the Asian memory rout overnight; no index volatility capitulation (VIX/VIX3M 0.898); the print falls inside the window and its post-print record is poor; the low-beta regime could end; the buyback window is probably shut.
+- **Bullish:** hike odds down to 24–32%; accelerating fundamentals at about 15x FY28; NVDA's lows do not need volume capitulation; the market is modally shallow; midterm seasonality; light discretionary positioning.
 - **Net:** −2 / +1 / +1. **Final: 33 / 47 / 20.**
 
 ## 6. The strongest case that "deeper" is wrong
@@ -181,7 +161,7 @@ Buckets: low ≥ −12.2% (210) / −12.2% to −20.6% / below −20.6% (190.01)
 - Every base rate and the implied-volatility walk put at least 55% below 210.
 
 **Toward trend break**
-1. The 5-year beta to SOXX is 1.0. If it returns, the semis trend break (35%) maps to 185–194.
+1. The 5-year beta to SOXX is 1.0. If it returns, the semis trend break (37% after audit) maps to 185–194.
 2. 24–25% of holdout signals broke.
 3. NVDA guarantees part of the financing chain that is under stress.
 4. The print falls inside the window.
@@ -228,7 +208,7 @@ Buckets: low ≥ −12.2% (210) / −12.2% to −20.6% / below −20.6% (190.01)
 - 78.6% Fibonacci levels 201.43 / 200.55; YTD anchored VWAP 200.85; the 200-strike put shelf.
 - DB analog median maximum adverse excursions: about 203.4 at 20 days and 199.6 at 40 days.
 
-**Timing:** Oct 26 – Nov 13, with the mode Oct 28 – Nov 6. Second window: earnings week (Nov 18–27).
+**Timing:** Oct 26 – Nov 13, with the mode Oct 28 – Nov 6. Second window: earnings week (Nov 17–27).
 
 **Path**
 1. 214.45 and then 210 break between Oct 16 and Oct 28, as SOXX loses 497.40 and QQQ tests 680–700.
@@ -309,7 +289,7 @@ Buckets: low ≥ −12.2% (210) / −12.2% to −20.6% / below −20.6% (190.01)
 - **Nov 6:** payrolls.
 - **About Nov 10:** CPI; CoreWeave (estimated).
 - **Ongoing:** the OpenAI financing round (about $1.4T, single-source).
-- **NVDA results, Nov 18–25 (unannounced):** the test is a Q4 guide of about $120bn or more, the 71–72% gross-margin trough holding, FY28 about +70% reaffirmed, and no new guarantees.
+- **NVDA results (unannounced; calendars list Nov 17, 18 or 25):** the test is a Q4 guide of about $120bn or more, the 71–72% gross-margin trough holding, FY28 about +70% reaffirmed, and no new guarantees.
 - **Nov 20:** options expiration.
 
 **What tells the scenarios apart**
@@ -335,11 +315,11 @@ Buckets: low ≥ −12.2% (210) / −12.2% to −20.6% / below −20.6% (190.01)
 
 **Single most important level:** **210 on a closing basis** (the 210.2–211.0 cluster). It separates shallow from deeper and is the bull's own invalidation. **190.01** is the trend line; **230.48** confirms on the upside.
 
-**Single most important event:** **Wed Oct 28**: the FOMC, then MSFT and GOOGL capex after the close. Hyperscalers were 55% of NVDA's Q2 Data Center revenue. NVDA's own print (Nov 18–25) comes second, and TSMC on Oct 15 is the first test.
+**Single most important event:** **Wed Oct 28**: the FOMC, then MSFT and GOOGL capex after the close. Hyperscalers were 55% of NVDA's Q2 Data Center revenue. NVDA's own print (Nov 17–25, unannounced) comes second, and TSMC on Oct 15 is the first test.
 
 ## 10. TSMC
 
-TSMC Q3 results were **not out** at about 04:25 UTC Oct 15. WebSearch found only previews and the [TSMC IR page](https://investor.tsmc.com/schinese/quarterly-results).
+TSMC Q3 results were **not out** at about 04:25 UTC or at about 04:32 UTC Oct 15 (12:32 am ET); they are due about 05:30–06:00 UTC. WebSearch found only previews and the [TSMC IR page](https://investor.tsmc.com/schinese/quarterly-results).
 
 **How to read it**
 - **Toward shallow:** a Q4 guide up quarter on quarter, gross margin at or above about 65%, capex at or above $60–64bn, *and* an NVDA close at or above 216.7 that holds through Oct 16.
@@ -351,16 +331,16 @@ TSMC Q3 results were **not out** at about 04:25 UTC Oct 15. WebSearch found only
 - DATA_BRIEF.md, base_rates.json, technicals.json, levels.json, betas_ratios.txt, analog_forward_returns.txt, live_snapshots.md.
 - Long Yahoo files in dl_nvdabull/.
 - research/*.md (catalysts, sentiment_positioning, semis_leadership, oct8_narrative, oct8_skeptic, macro_rates, zz_verification_corrections) and analysis/verify/facts.md.
-- market, tech and semis verdicts; nvda_bull.md and nvda_bear.md.
+- market, tech and semis verdicts with their audit addenda (verify/audit_market.md, audit_tech.md, audit_semis.md); nvda_bull.md and nvda_bear.md.
 
 **Primary filings (via [CAT] / [FX])**
 - NVDA 8-K, Aug 17 (guarantees): https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm
 - NVDA 10-Q, Aug 26: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
 - NVDA Q2 FY27 transcript: https://s201.q4cdn.com/141608511/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
 
-**News**
-- Hike odds: Reuters via Investing.com, Oct 14: https://www.investing.com/news/stock-market-news/
-- CoreWeave and Asia: Reuters via Investing.com: https://www.investing.com/news/stock-market-news/asia-stocks-slump-as-chip-rout-deepens-after-hotter-us-inflation-4950421
+**News and market data**
+- Hike odds of 24–32%: Polymarket and Kalshi live APIs, the Investing.com Fed Rate Monitor and Reuters/LSEG, as compiled in analysis/verify/facts.md (03:45–04:00 UTC Oct 15). FOMC calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+- CoreWeave and Asia: Reuters via Investing.com, Oct 15: https://www.investing.com/news/stock-market-news/asia-stocks-slump-as-chip-rout-deepens-after-hotter-us-inflation-4950421
 
 **My scripts and live data**
 - `scratchpad/nv_scripts/v1.py`, `v2.py`, `v3.py`, `mc.py`.
@@ -368,22 +348,20 @@ TSMC Q3 results were **not out** at about 04:25 UTC Oct 15. WebSearch found only
 
 ## UNVERIFIED or caveated
 
-- **Dates:**
-  - NVDA's earnings date is unannounced (Nov 18–25).
-  - AMZN's and CoreWeave's dates are estimates.
-- **Single-source figures:**
-  - Hike odds (24–32%, varies by venue).
-  - Hedge-fund positioning percentiles.
-  - The OpenAI round terms.
-- **Inferences and unsettled facts:**
-  - NVDA's buyback blackout is inferred.
-  - The OpenAI "gross vs net" explanation is not settled.
-- **Base rates:** samples are small and overlapping (effective n ≈ 6–10 episodes). Pre-2016 NVDA is excluded from the record-based sets because NVDA made no records between 2007 and 2016.
-- **My own judgment and models:**
-  - The conditional mapping tables are judgment.
-  - The simulation is a no-drift, no-information benchmark, not a forecast.
-  - Options data comes from partial chains, and the risk-neutral odds are approximations.
-- **Prices and projections:**
-  - Overnight prints are thin, not closes.
-  - The 200-day projections assume flat prices.
+- **Dates:** NVDA's earnings date is unannounced (calendars list Nov 17, 18 or 25); AMZN's and CoreWeave's dates are estimates.
+- **Single-source:** hike odds (24–32%, varies by venue), hedge-fund positioning percentiles, the OpenAI round terms.
+- **Inferred or unsettled:** NVDA's buyback blackout is inferred; the OpenAI "gross vs net" explanation is not settled.
+- **Base rates:** small, overlapping samples (effective n ≈ 6–10 episodes). The record-based sets effectively start in 2016, because NVDA made no records from 2007 to 2016.
+- **Judgment and models:** the conditional mapping tables are my judgment. The simulation is a no-drift benchmark, not a forecast. Options data comes from partial chains, and the risk-neutral odds are approximations.
+- **Prices:** overnight prints are thin, not closes; the 200-day projections assume flat prices.
 - **TSMC:** results were pending when this was written.
+
+---
+
+## AUDIT ADDENDUM (analysis/verify/audit_nvda.md)
+- All load-bearing statistics reproduced independently (episode conditionals, 36-session signal sets, holdout sets, Monte Carlo, betas/down-day ratios, 200-day paths, every level/gap/AVWAP/Fib).
+- "Every independent lens puts the mode in deeper" is withdrawn: 3 of 15 reference rows are shallow-modal (3y record-episode 45/36/18; holdout 42/33/25; holdout-from-1y-high 47/29/24). Deeper is modal on the mean (44) and median (46) of rows.
+- Market trend-break boundary (S&P 7,314) maps to QQQ ≈ 667–674 and NVDA ≈ 195–198 (inside NVDA's deeper bucket), not 192 — a market trend break does not mechanically force an NVDA trend break.
+- Row mean is 35.8/44.3/19.9; with the stated regime adjustment → **corrected NVDA ≈ 34 shallow / 45 deeper / 21 trend break**.
+- NVDA/SOXX 1-year low was 0.3123 on Jun 30 (rally since +36.4%); "first half" NVDA +7.3% vs SOXX +112.8% (the +18.7%/+72.5% is YTD through Oct 14). Holdout trend-break share rests on a single episode (Jan–Apr 2025).
+- Unchanged: boundaries 210.00 / 190.01, zones (211–218.9 / 198–209 / 175–189), key level 210 close (210.2–211.0 cluster), upside confirmation 230.48, key event Oct 28.

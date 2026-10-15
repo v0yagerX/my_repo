@@ -378,3 +378,13 @@
   - Basket breadth carries survivorship bias.
   - The 200-day paths assume flat prices.
   - Analogs are weighted toward the 1990s.
+
+---
+
+## AUDIT ADDENDUM (analysis/verify/audit_semis.md)
+- "The analog bins agree" with the judgment matrix is withdrawn: the omitted all-signals bin (n=18: 17/39/44) and the overnight-state bins put trend break above deeper; mechanically applied bins give a top-down of 24–32 / 22–30 / 42–46 (close state).
+- Window is 35 sessions (Thanksgiving), not 36 — this pulls close-state trend-break rates down a few points.
+- Stated arithmetic gives 25/40/35, not 26/39/35.
+- **Corrected SOXX probabilities ≈ 26 shallow / 37 deeper / 37 trend break** — deeper and trend break are co-modal (statistically indistinguishable); shallow ~25–27% is robust.
+- Median lowest close ≈ 477–480 (not 480–485). "No sell-side downgrades" is wrong as worded (Citi cut NXPI/Nova Oct 8; Barclays cut Dell/HPE/NetApp Oct 14); no leader/sector-level downgrade found.
+- Unchanged: all levels/zones, hinges 497.40 / 465.00, key level SOXX 497.40 close, key events TSMC Oct 15 → Oct 28.
