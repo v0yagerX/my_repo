@@ -12,4 +12,6 @@ Top-down assessment, as of the Oct 14, 2026 close plus overnight Oct 15, coverin
 | `analysis/verify/` | Independent numbers audits for each layer, the external-fact re-verification, the cross-layer coherence and bias review, the completeness review, and the TSMC verification |
 | `scripts/` | Python used to fetch data and compute the statistics |
 
+Note: the `*_verdict.json` files were saved before the audits and carry the pre-audit probabilities. Use the audit addenda in the `.md` files, or FINAL_REPORT.md, for the corrected figures.
+
 Not investment advice. The S&P 500 breadth data uses current constituents only (survivorship bias). The S&P 500 member price files are not committed because of their size; `scripts/fetch_yahoo.py` regenerates them.
